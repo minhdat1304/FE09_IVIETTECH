@@ -1,0 +1,76 @@
+/* -------------BODY--------------- */
+body{
+    background:linear-gradient(to right,rgb(20, 20, 99),rgb(15, 218, 218));
+    position: relative;   
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.noidung{
+    width: 600px;
+    height: 400px;
+    margin:300px auto;
+    background-color:aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 5px azure;
+}
+/* ------------PHẦN BÊN TRÁI- CÓ LÁ THƯ----------- */
+.trai{
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin:75px;
+}
+
+
+/* --------------PHẦN BÊN PHẢI-FORM ĐỂ NHẬP----------- */
+.phai{
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+/* ---------tiêu đề------- */
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 70px;
+}
+/* --------định dạng input------ */
+.row{
+    border-radius: 10px;
+    background-color: rgba(187, 180, 180, 0.7);
+    height: 30px;
+    padding-left: 20px;
+    margin-bottom:15px;
+}
+/* -----không hiển thị outline của input------ */
+.row:focus{
+    outline:none;
+}
+/* -----------định dạng kích thước của phần Message */
+.row2{
+    width: 220px;
+    height: 70px;
+}
+/* ----------định dạng nút nhất---------- */
+.btn{
+    margin-top:10px;
+    margin-left:50px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(10, 85, 10);
+}
+.btn:focus{
+    outline:none;
+}
