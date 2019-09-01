@@ -4,27 +4,67 @@
 }
 body{
     background-color: #ffffff;
+    font-family: 'Livvic', sans-serif;
 }
 header{
     width: 100%;
     height: 48px;
+    display: flex;
     background-color:red;
+}
+header #logo{
+    padding: 5px;
+    width: 100px;
+}
+header #logo span{
+    font-size: 18px;
+    font-weight: bold;
+}
+header nav#nav_header{
+    width: 300px;
+}
+nav#nav_header ul{
+    display: flex;
+    list-style: none;
+}
+nav#nav_header ul li{
+    display: block;
+    padding: 5px;
+    border: 1px;
 }
 #categocy{
     width: 100%;
-    height: 240px;
+    /* height: 240px; */
     background-color: #f8f9fa;
-    padding: 30px 10px;
+    padding: 10px 0px;
+    /* margin-bottom: 0px; */
 }
 #cate_info{
     width: 900px;
-    margin: auto;
+    margin: 20px auto;
 }
 #categocy p{
+    width: 80%;
+    font-family: 'Livvic', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    padding: 10px 20px;
+    font-weight: lighter;
+}
+#categocy h3{
     width: 60%;
-    font-family: tahoma;
-    font-size: 1rem;
-    padding: 20px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    padding: 10px 20px;
+}
+#categocy h6{
+    width: 60%;
+    font-family: 'Livvic', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    padding: 10px 20px;
+    font-weight: lighter;
 }
 #section{
     width: 900px;
@@ -41,9 +81,22 @@ header{
     border-radius: 5px;
     width: 100%;
 }
+#section .new h2{
+    font-size: 18px;
+    padding: 10px 5px;
+}
+#section .new p#new_text{
+    font-size: 16px;
+    padding: 10px 5px;
+}
+#section .new p#more a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 5px;
+}
 #link_iterm{
     padding: 1px;
-    margin: 10px 0px;
+    margin: 15px 5px;
     border: 1px solid green;
     background-color: green;
     color: white;
@@ -55,10 +108,17 @@ header{
 .persion{
     width: 100%;
     display: flex;
+    margin: 10px 5px;
 }
 .persion #img_pertion{
     width: 10%;
     border-radius: 50%;
+}
+.persion p,.persion p a{
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+    margin: auto 10px;
 }
 footer{
     width: 100%;
