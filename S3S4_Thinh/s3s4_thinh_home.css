@@ -83,6 +83,9 @@ nav#nav_header ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.43);
 }
 #section .new{
     width: 310px;
@@ -136,4 +139,22 @@ footer{
     width: 100%;
     display: flex;
     background-color: #333333;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+footer #about{
+    width: 50%;
+    padding: 30px;
+}
+footer #nav_footer{
+    width: 25%;
+}
+footer #link{
+    width: 15%;
+    background-color: aqua;
+}
+footer #end{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
