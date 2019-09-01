@@ -6,6 +6,10 @@ body{
     background-color: #ffffff;
     font-family: 'Livvic', sans-serif;
 }
+a,ul{
+    text-decoration: none;
+    list-style: none;
+}
 header{
     width: 100%;
     /* height: 48px; */
@@ -19,7 +23,8 @@ header #logo{
 }
 header #logo span{
     font-size: 27px;
-    font-weight: bold;
+    font-weight: lighter;
+    color: black;
 }
 header nav#nav_header{
     width: 540px;
@@ -143,18 +148,56 @@ footer{
     padding: 50px 0px;
 }
 footer #about{
-    width: 50%;
-    padding: 30px;
+    width: 25%;
+    padding: 0px 120px;
+}
+footer #about h4{
+    padding: 20px 0px;
+    color:white;
+    font-size: 20px;
+}
+footer #about p{
+    padding: 20px 0px;
+    color: #737373;
 }
 footer #nav_footer{
     width: 25%;
+    padding: 50px 0px;
+    color: #737373;
+}
+footer #nav_footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer #nav_footer ul li{
+    display: inline-block;
+    width: 50%;
+}
+footer a{
+    color: #737373;
 }
 footer #link{
-    width: 15%;
-    background-color: aqua;
+    width: 24%;
+}
+footer #link h4{
+    color: white;
+    font-size: 20px;
+}
+footer #link ul{
+    display: flex;
+}
+footer #link ul li{
+    display: block;
+    width: 20px;
+    font-size: large;
+    padding: 8px;
 }
 footer #end{
     width: 100%;
     text-align: center;
     padding: 20px;
+    color: #737373;
+}
+footer #end i{
+    color: red;
 }
