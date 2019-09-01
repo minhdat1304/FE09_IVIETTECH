@@ -176,6 +176,9 @@ footer #nav_footer ul li{
 footer a{
     color: #737373;
 }
+footer a:hover{
+    color: white;
+}
 footer #link{
     width: 24%;
 }
