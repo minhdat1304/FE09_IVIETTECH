@@ -7,27 +7,29 @@ html {
   }
 body{
     background-image: linear-gradient(to bottom right, #3075f6, #55c0f9);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .lon{
-    width: 700px;
+    width: 600px;
     background-color: white;
     display: flex;
-    margin: auto;
+    margin:150px auto;
     border-radius: 10px;
-    margin-top: 118px;
+    box-shadow: 5px 5px 5px #666;
 }
 .anh{
-    width: 300px;
+    width: 250px;
 }
 .anh img{
     width: 71%;
-    margin: 83px 66px;
+    margin: 110px 42px;
 }
 .nhaplieu{
-    width: 400px;
+    width: 350px;
 }
 .nhaplieu input[type=text]{
-    width: 300px;
+    width: 290px;
     height: 30px;
     margin: 10px auto;
     padding: 5px 5px;
@@ -37,7 +39,7 @@ body{
     color: gray;
 }
 .nhaplieu textarea{
-    width: 300px;
+    width: 290px;
     margin: 10px auto;
     padding: 5px 5px;
     background-color: #e5e5e5;
@@ -54,6 +56,9 @@ body{
     background-color: #72b05e;
     border-radius: 10px;
     border: 1px;
+    font-weight: bolder;
+    font-family: tahoma;
+    color: white;
 }
 .nhaplieu h1,.nhaplieu form{
     text-align: center;
