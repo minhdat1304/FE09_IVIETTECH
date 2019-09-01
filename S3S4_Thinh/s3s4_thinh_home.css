@@ -48,10 +48,12 @@ nav#nav_header ul li a:hover{
     width: 100%;
     background-color: #f8f9fa;
     padding: 10px 0px;
+    margin-bottom: 50px;
 }
 #cate_info{
-    width: 900px;
-    margin: 20px auto;
+    width: 1000px;
+    margin: 0px auto;
+    /* margin-bottom: 50px; */
 }
 #categocy p{
     width: 80%;
@@ -77,15 +79,15 @@ nav#nav_header ul li a:hover{
     font-weight: lighter;
 }
 #section{
-    width: 900px;
+    width: 1000px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
 #section .new{
-    width: 280px;
-    margin-right: 20px;
-    margin-top: 20px;
+    width: 310px;
+    margin-right: 22px;
+    margin-top: 22px;
 }
 #img_new{
     border-radius: 5px;
