@@ -1,0 +1,241 @@
+body
+{
+  width: 100%;
+}
+
+.navbar {
+  
+	width: 100%;
+	height: 50px;
+	padding: 20px; 
+	display: block;
+}
+
+#myInput {
+	float: right;
+  background-image: url('https://img.icons8.com/android/24/000000/search.png');
+  height: 10px;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  width: 200px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd; 
+}
+
+.navbar-search {
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+
+.navbar-menu {
+	position: absolute;
+	right: 400px;
+	top: 60px;
+}
+
+.navbar-menu-item {
+	text-decoration: none;
+	padding: 0 20px;
+	color: black;
+}
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-auto-rows: 300px;
+  padding: 10px;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end:  3;
+  padding: 10px;
+}
+
+.item1 {
+ 
+  padding: 10px;
+}
+
+.item1 .main-left-top
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://getwallpapers.com/wallpaper/full/9/a/0/630558.jpg");
+  height: 100%;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text { 
+  text-indent: 10px;
+  position: absolute;
+  color: white;
+  bottom: 4px;
+  text-align: left;
+  line-height: 2px;
+}
+
+.item1 .main-left-bottom {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://getwallpapers.com/wallpaper/full/a/d/b/455009.jpg");
+  height: 100%;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.item2 .main-center {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://getwallpapers.com/wallpaper/full/4/1/6/1398344-gorgerous-one-piece-zoro-wallpaper-1912x2763.jpg");
+  height: 100%;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.item1 .main-right-bottom {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://getwallpapers.com/wallpaper/full/5/f/c/1029201-one-piece-wallpaper-2018-1920x1080-full-hd.jpg");
+  height: 100%;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.item1 .main-right-top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://getwallpapers.com/wallpaper/full/5/f/5/1486293-vertical-one-piece-wallpaper-1920x1080-1920x1080-for-iphone-6.jpg");
+  height: 100%;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 3px;
+}
+
+.grid-content {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-auto-rows: 600px;
+  padding: 10px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item .row1 {
+  background-image: url("http://getwallpapers.com/wallpaper/full/4/7/9/11423.jpg");
+  height: 50%;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row1 .button2 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 3px;
+}
+
+.item .row1 .text1 { 
+  padding-top: 300px;
+  text-align: left;
+}
+
+.text1 img {
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 0.5px #d4d4d4 solid;
+}
+
+.date {
+  text-indent: 10px;
+   font-family: sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.6);
+    font-weight: normal;
+    font-size: 14px;
+} 
+
+.item .row2 {
+  background-image: url("http://getwallpapers.com/wallpaper/full/7/8/c/7285.jpg");
+  height: 50%;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row2 .button3 {
+  background-color: #FF4600; 
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 3px;
+}
+
+.item .row2 .text1 { 
+  padding-top: 300px;
+  text-align: left;
+}
+.item .row3 {
+  background-image: url("http://getwallpapers.com/wallpaper/full/4/1/b/1411683-vertical-boku-no-hero-academia-wallpapers-2323x1376-hd-1080p.jpg");
+  height: 50%;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row3 .button4 {
+  background-color: #1E23FF; 
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 3px;
+} 
+
+.item .row3 .text1 { 
+  padding-top: 300px;
+  text-align: left;
+}
