@@ -28,7 +28,7 @@ header #logo span{
 }
 header nav#nav_header{
     width: 540px;
-    display: inline-block;
+    display: block;
     float: right;
 }
 nav#nav_header ul{
@@ -82,6 +82,46 @@ nav#nav_header ul li a:hover{
     font-style: italic;
     padding: 10px 20px;
     font-weight: lighter;
+}
+.section0{
+    width: 100%;
+    background-color: #f8f9fa;
+}
+#section00{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    margin:50px auto;
+}
+.section0 #section1{
+    width: 300px;
+}
+.section0 a{
+    display: block;
+    margin: 10px;
+}
+.section0 #section1 #section11,.section0 #section3 #section11 {
+    height: 250px;
+    background-image: url(./img_kt2.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+.section0 #section2 #section21{
+    height: 500px;
+    background-image: url(./img_kt2.jpg) ;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+.section0 #section2{
+    width: 300px;
+}
+.section0 #section3{
+    width: 300px;
 }
 .section{
     width: 1000px;
