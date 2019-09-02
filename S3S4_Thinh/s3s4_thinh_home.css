@@ -12,7 +12,6 @@ a,ul{
 }
 header{
     width: 100%;
-    /* height: 48px; */
     background-color:white;
 }
 header #logo{
@@ -56,9 +55,8 @@ nav#nav_header ul li a:hover{
     margin-bottom: 50px;
 }
 #cate_info{
-    width: 1000px;
+    width: 1200px;
     margin: 0px auto;
-    /* margin-bottom: 50px; */
 }
 #categocy p{
     width: 80%;
@@ -85,46 +83,59 @@ nav#nav_header ul li a:hover{
 }
 .section0{
     width: 100%;
+    height: 100%;
     background-color: #f8f9fa;
+    padding: 0px;
 }
 #section00{
-    width: 1000px;
+    width: 1200px;
     height: 500px;
     display: flex;
-    margin:50px auto;
+    margin: auto;
+    padding: 30px 0px;
+    justify-content: space-between;
 }
 .section0 #section1{
-    width: 300px;
+    width: 330px;
 }
 .section0 a{
     display: block;
-    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+.section0 a p{
+    padding: 0px 15px;
+    color: gray;
+    padding-bottom: 20px;
+}
+.section0 a h3{
+    padding: 0px 15px;
+    color: white;
 }
 .section0 #section1 #section11,.section0 #section3 #section11 {
-    height: 250px;
-    background-image: url(./img_kt2.jpg) ;
+    height: 230px;
+    background-image: url(./img_kt2.jpg);
     background-size: cover;
     border-radius: 10px;
     display: table-cell;
     vertical-align: bottom;
 }
 .section0 #section2 #section21{
-    height: 500px;
-    background-image: url(./img_kt2.jpg) ;
+    height: 480px;
+    background-image: url(./img_kt2.jpg);
     background-size: cover;
-    margin: 10px;
     border-radius: 10px;
     display: table-cell;
     vertical-align: bottom;
 }
 .section0 #section2{
-    width: 300px;
+    width: 491px;
 }
 .section0 #section3{
-    width: 300px;
+    width: 330px;
 }
 .section{
-    width: 1000px;
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -132,10 +143,14 @@ nav#nav_header ul li a:hover{
     padding-bottom: 50px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.43);
 }
+.section h3{
+    width: 1000px;
+    padding-top: 20px;
+}
 .section .new{
-    width: 310px;
-    margin-right: 22px;
-    margin-top: 22px;
+    width: 370px;
+    margin-right: 30px;
+    margin-top: 30px;
 }
 #img_new{
     border-radius: 5px;
