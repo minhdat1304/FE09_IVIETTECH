@@ -1,0 +1,277 @@
+body {
+	display: flex;
+	background-color: #000000;
+}
+.box1 {
+	width:40cm;
+	height:5cm;
+	background-color: #3B0B24; /* bảng ngang trên cùng */
+}
+.box11 {
+	font-size: 40px;
+	color: #F7FE2E;
+	position: absolute;
+	left: 1cm;
+	top: 1cm; /* bảng chữ world cup */
+}
+.box12 {
+	font-size: 30px;
+	color: #F7FE2E;
+	word-spacing: 7mm;
+	position: absolute;
+	top: 14px;
+	left: 16cm; /* bảng 4 chữ */
+}
+.box13 input{
+	font-size: 20px;
+	background-color: #F4FA58;
+	position: absolute;
+	border-radius: 10px 10px 10px 10px;
+	top: 13mm;
+	left: 28cm; /* thanh search */
+}
+.box2 {
+	width: 353mm;
+	height:12cm;
+	background-color: #0A2A29;
+	position: absolute;
+	top: 53mm; /* bảng 5 hình */
+}
+.box21{
+	background-image: url(./img1.jpg);
+	background-size: 10cm;
+	width: 8cm;
+	height: 5cm;
+	position: absolute;
+	top: 5mm; /* hình 1, gắn ảnh, size ảnh, kích thước khung, vị trí khung */
+}
+.box22 {
+	background-image: url(./img2.jpg);
+	background-size: 8cm;
+	width: 8cm;
+	height: 5cm;
+	position: absolute;
+	top: 6cm;	/* hình 2, dưới hình 1, gắn ảnh, size ảnh, kích thước khung, vị trí khung */
+}
+.box23 {
+	background-image: url(./img3.jpg);
+	background-size: 20cm;
+	width: 18cm;
+	height: 105mm;
+	position: absolute;
+	left: 87mm;
+	top: 5mm /* hình 3, là hình ở giữa, gắn ảnh, size ảnh, kích thước khung, vị trí khung */
+}
+.box24 {
+	background-image: url(./img4.jpg);
+	background-size: 8cm;
+	width: 8cm;
+	height: 5cm;
+	position: absolute;
+	left: 273mm;
+	top: 5mm; /* hình 4 */
+}
+.box25 {
+	background-image: url(./img5.jpg);
+	background-size: 8cm;
+	width: 8cm;
+	height: 5cm;
+	position: absolute;
+	left: 273mm;
+	top: 6cm; /* hình 5, dưới hình 4, gắn ảnh, size ảnh, kích thước khung, vị trí khung */
+}
+.box21 p {
+	color: #F7FE2E;
+	padding-top: 4cm; /* chữ trên hình 1, vị trí chữ*/
+}
+.box22 p {
+	color: #F7FE2E;
+	padding-top: 4cm; /* chữ trên hình 2, vị trí chữ*/
+}
+.box23 p {
+	color: #F7FE2E;
+	padding-top: 95mm; /* chữ trên hình 3, vị trí chữ*/
+}
+.box24 p {
+	color: #F7FE2E;
+	padding-top: 4cm; /* chữ trên hình 4, vị trí chữ*/
+}
+.box25 p {
+	color: #F7FE2E;
+	padding-top: 4cm; /* chữ trên hình 5, vị trí chữ*/
+}
+button {
+	background-color: #F7FE2E;
+	border-radius: 10px; /* màu của all nút, bo viền all nút */
+}
+#nut1 {
+	position: absolute;
+	top: 92mm; /* vị trí nút like */
+}
+#nut2 {
+	position: absolute;
+	left: 12mm;
+	top: 92mm; /* vị trí nút dislike */
+}
+.box3 {
+	width: 353mm;
+	height: 30cm;
+	background-color: #0A2A29;
+	position: absolute;
+	top: 17cm; /* khung chứa 4 hình */
+}
+.box31 h2 {
+	color: #0000FF;
+	padding-left: 5mm; /* dòng chữ list hot */
+}
+.box32 {
+	background-image: url(./img32.jpg);
+	background-size: 12cm;
+	width: 8cm;
+	height: 5cm;
+	position: absolute;
+	padding-top: 1cm; /* hình chiris evans */
+}
+.box32 p {
+	padding-top: 6cm;
+	color: #FBFBEF;
+	font-family: large; /* kiểu chữ, màu chữ, vị trí */
+}
+#nut3 {
+	position: absolute;
+	top: 65mm;
+	left: 1cm; /* nút chris evans */
+}
+.box33 {
+	background-image: url(./img33.jpg);
+	background-size: 8cm;
+	width: 8cm;
+	height: 6cm;
+	position: absolute;
+	left: 9cm; /* hình chris hemsworth */
+}
+.box33 p {
+	padding-top: 7cm;
+	color: #FBFBEF;
+	font-family: large; /* kiểu chữ, màu chữ, vị trí */
+}
+#nut4 {
+	position: absolute;
+	top: 65mm;
+	left: 25mm; /* nút chris hemsworth */
+}
+.box34 {
+	background-image: url(./img34.jpg);
+	background-size: 11cm;
+	width: 8cm;
+	height: 6cm;
+	position: absolute;
+	left: 18cm; /* hình jeremy renner */
+}
+.box34 p {
+	padding-top: 7cm;
+	color: #FBFBEF;
+	font-family: large;/* kiểu chữ, màu chữ, vị trí */
+}
+#nut5 {
+	position: absolute;
+	top: 65mm;
+	left: 25mm; /* nút jeremy renner */
+}
+.box35 {
+	background-image: url(./img35.jpg);
+	background-size: 11cm;
+	width: 8cm;
+	height: 6cm;
+	position: absolute;
+	left: 273mm;/* hình robert downey */
+}
+.box35 p {
+	padding-top: 7cm;
+	color: #FBFBEF;
+	font-family: large;/* kiểu chữ, màu chữ, vị trí */
+}
+#nut6 {
+	position: absolute;
+	top: 65mm;
+	left: 25mm;/* nút robert downey */
+}
+.box4 {
+	width: 353mm;
+	height: 20cm;
+	background-color: #0A2A29;
+	position: absolute;
+	top: 30cm; /* khung chứa 4 hình */
+}
+.box41 {
+	background-image: url(./img41.jpg);
+	background-size: 10cm;
+	width: 8cm;
+	height: 5cm;
+	position: absolute;
+	padding-top: 1cm;/* hình peter parker */
+}
+.box41 p {
+	padding-top: 6cm;
+	color: #FBFBEF;
+	font-family: large; /* kiểu chữ, màu chữ, vị trí */
+}
+#nut7 {
+	position: absolute;
+	top: 65mm;
+	left: 25mm;/* nút peter parker */
+}
+.box42 {
+	background-image: url(./img42.jpg);
+	background-size: 10cm;
+	width: 8cm;
+	height: 6cm;
+	position: absolute;
+	left: 9cm;/* hình samuel l.jackson */
+}
+.box42 p {
+	padding-top: 7cm;
+	color: #FBFBEF;
+	font-family: large;/* kiểu chữ, màu chữ, vị trí */
+}
+#nut8 {
+	position: absolute;
+	top: 65mm;
+	left: 2cm;/* nút samuel l.jackson */
+}
+.box43 {
+	background-image: url(./img43.jpg);
+	background-size: 10cm;
+	width: 8cm;
+	height: 6cm;
+	position: absolute;
+	left: 18cm;/* hình mark ruffalo */
+}
+.box43 p {
+	padding-top: 7cm;
+	color: #FBFBEF;
+	font-family: large;/* kiểu chữ, màu chữ, vị trí */
+}
+#nut9 {
+	position: absolute;
+	top: 65mm;
+	left: 3cm;/* nút mark ruffalon */
+}
+.box44 {
+	background-image: url(./img44.jpg);
+	background-size: 10cm;
+	width: 8cm;
+	height: 6cm;
+	position: absolute;
+	left: 27cm;/* hình phil coulson */
+}
+.box44 p {
+	padding-top: 7cm;
+	color: #FBFBEF;
+	font-family: large;/* kiểu chữ, màu chữ, vị trí */
+}
+#nut10 {
+	position: absolute;
+	top: 65mm;
+	left: 4cm;/* nút phil coulson */
+}
