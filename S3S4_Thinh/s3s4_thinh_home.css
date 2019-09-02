@@ -87,7 +87,7 @@ nav#nav_header ul li a:hover{
     background-color: #f8f9fa;
     padding: 0px;
 }
-#section00{
+.section00{
     width: 1200px;
     height: 500px;
     display: flex;
@@ -133,6 +133,12 @@ nav#nav_header ul li a:hover{
 }
 .section0 #section3{
     width: 330px;
+}
+.section0 .section00 #section4{
+    width: 800px;
+}
+.section0 .section00 #section5{
+    width: 400px;
 }
 .section{
     width: 1200px;
@@ -194,6 +200,26 @@ nav#nav_header ul li a:hover{
     font-size: 13px;
     color: gray;
     margin: auto 10px;
+}
+.number_list{
+    width: 500px;;
+    margin: 20px auto;
+}
+.number_list span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    margin: 1px;
+    background-color: #142ec4;
+    border-radius: 50%;
+    text-align: center;
+    color: wheat;
+}
+.number_list span#sp1,.number_list span#sp5{
+    background-color: white;
+    color: black;
+
 }
 footer{
     width: 100%;
