@@ -17,11 +17,12 @@ a,ul{
 header{
     width: 100%;
     background-color:white;
+    display: flex;
 }
 header #logo{
     padding: 15px;
-    width: 200px;
-    display: inline-block;
+    width: 20%;
+    display: block;
     font-style: italic;
 }
 header #logo span{
@@ -30,13 +31,14 @@ header #logo span{
     color: black;
 }
 header nav#nav_header{
-    width: 540px;
+    width: 80%;
     display: block;
-    float: right;
+    
 }
 nav#nav_header ul{
     display: flex;
     list-style: none;
+    float: right;
 }
 nav#nav_header ul li{
     display: block;
