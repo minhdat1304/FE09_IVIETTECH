@@ -10,6 +10,10 @@ a,ul{
     text-decoration: none;
     list-style: none;
 }
+.block_align_center{
+    width: 1200px;
+    margin: 0px auto;
+}
 header{
     width: 100%;
     background-color:white;
@@ -83,36 +87,33 @@ nav#nav_header ul li a:hover{
 }
 .section0{
     width: 100%;
-    height: 100%;
     background-color: #f8f9fa;
-    padding: 0px;
 }
 .section00{
-    width: 1200px;
     height: 500px;
     display: flex;
-    margin: auto;
     padding: 30px 0px;
+    overflow: hidden;
     justify-content: space-between;
 }
-.section0 #section1{
+.section00 #section1{
     width: 330px;
 }
-.section0 a{
+.section00 a{
     display: block;
     margin-bottom: 20px;
     
 }
-.section0 a p{
+.section00 a p{
     padding: 0px 15px;
     color: gray;
     padding-bottom: 20px;
 }
-.section0 a h3{
+.section00 a h3{
     padding: 0px 15px;
     color: white;
 }
-.section0 #section1 #section11,.section0 #section3 #section11 {
+.section00 #section1 #section11,.section00 #section3 #section11 {
     height: 230px;
     background-image: url(./img_kt2.jpg);
     background-size: cover;
@@ -120,7 +121,7 @@ nav#nav_header ul li a:hover{
     display: table-cell;
     vertical-align: bottom;
 }
-.section0 #section2 #section21{
+.section00 #section2 .section21{
     height: 480px;
     background-image: url(./img_kt2.jpg);
     background-size: cover;
@@ -128,17 +129,11 @@ nav#nav_header ul li a:hover{
     display: table-cell;
     vertical-align: bottom;
 }
-.section0 #section2{
+.section00 #section2{
     width: 491px;
 }
-.section0 #section3{
+.section00 #section3{
     width: 330px;
-}
-.section0 .section00 #section4{
-    width: 800px;
-}
-.section0 .section00 #section5{
-    width: 400px;
 }
 .section{
     width: 1200px;
