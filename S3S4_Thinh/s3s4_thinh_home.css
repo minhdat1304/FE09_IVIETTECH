@@ -189,7 +189,8 @@ nav#nav_header ul li a:hover{
     margin: 10px 5px;
 }
 .persion #img_pertion{
-    width: 10%;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
 }
 .persion p,.persion p a{

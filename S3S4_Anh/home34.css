@@ -1,0 +1,185 @@
+body {
+    /*max-width: 1000px;*/
+    margin: auto;
+}
+
+header {
+    padding: 15px 0px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.head-wrap {
+    background-color: white;
+    font-size: 15px;
+    font-weight: 200px;
+    /* do day cua chu */
+}
+
+.footer-wrap {
+    background-color: black;
+    font-size: 15px;
+    font-weight: 200px;
+    /* do day cua chu */
+    color: white;
+}
+
+.selected {
+    float: right;
+    margin: 0px 7px;
+    color: black;
+}
+
+#searchimage {
+    max-width: 39px;
+    max-height: 17px;
+    align-self: center;
+}
+
+#mainBottom {
+    align-self: center;
+}
+
+#mainTop {
+    background-color: #D3D3D3;
+    align-items: center;
+}
+
+#mainBottom-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box {
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    align-items: center;
+    /*background-color: red;*/
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.contentBox {
+    height: 290px;
+    overflow: hidden;
+    /*limmited tex*/
+    margin-bottom: 30px;
+}
+
+.imageBox {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: inline-block;
+    background-color: green;
+    border: 0;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+#useAvatar {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+
+.timePost {
+    display: inline-block;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-indent: 10px;
+}
+
+.readMore {
+    color: blue;
+    text-decoration: none;
+}
+
+.title-box {
+    height: 40px;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: inline-block;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-indent: 10px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/*main top chia grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+}
+
+.item1 {
+    width: 300px;
+    /*height: px;*/
+}
+
+.item1-imge {
+    height: 230px;
+    background-image: url(https://cms-i.autodaily.vn/du-lieu/2019/07/28/Vinfas%20A2.0/se6.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    display: table-cell;
+    vertical-align: bottom;
+    color: white;
+    background-position: center;
+}
+
+.item2-imge {
+    height: 480px;
+    background-image: url(https://cms-i.autodaily.vn/du-lieu/2019/08/29/porsche-macan-turbo-4.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    display: table-cell;
+    vertical-align: bottom;
+    color: white;
+    background-position: center;
+}
+
+.item2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid-container>div {
+    /*background-color: white;*/
+    text-indent: 20px;
+
+}
+
+/**/
+.mainTop-warp {
+    width: 1000px;
+    margin: auto;
+    padding: 50px 100px;
+    background-color: #D3D3D3;
+}
+
+.btnImage {
+    vertical-align: bottom;
+}
