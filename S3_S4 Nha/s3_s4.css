@@ -1,0 +1,341 @@
+/* --------------------->COMMON<--------------------------------- */
+
+section {
+    padding: 6px;
+}
+
+.row {
+    max-width: 100%;
+    /* margin-left: 70px; */
+    margin: 0 auto;
+}
+
+
+/* ----------->HEADER<------------------------------  */
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin: 0px;
+}
+
+.header {
+    background-color: #fcfcfc;
+    height: 42px;
+    /* display: block; */
+    /* padding: 50px; */
+    /* vertical-align: middle; */
+    padding: 10px;
+    height: 30px;
+    display: block;
+}
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav li a {
+    display: block;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+
+/* .main-nav li a:hover, */
+
+
+/* .main-nav li a :active {
+    border-bottom: 2px solid white;
+} */
+
+.name {
+    width: 80px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+
+/* ------------------>grid system part 2<--------------------------------- */
+
+.wrapper {
+    /* margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; */
+    /* grid-auto-rows: minmax(100px, auto); */
+    /* grid-auto-columns: minmax(200px, auto); */
+    /* grid-auto-columns: 33.3333333%; */
+    /* grid-auto-rows: 33.33333333%; */
+    /* text-align: center; */
+    /* grid-auto-rows: 200px; */
+    /* padding: 10px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: 200px;
+    /* padding: 10px; */
+    background-color: rgb(240, 240, 255)
+}
+
+.top-left {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-image: url(./picture/1.jpg);
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: end;
+    align-self: end;
+}
+
+.middle {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    background-image: url(./picture/main.jpg);
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    place-self: center;
+}
+
+.bottom-left {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(./picture/2.jpg);
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: end;
+    align-self: start;
+}
+
+.top-right {
+    grid-column: 3;
+    grid-row: 1;
+    background-image: url(./picture/3.jpg);
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: start;
+    align-self: end;
+}
+
+.bottom-right {
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url(./picture/4.jpg);
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-self: start;
+    align-self: start;
+}
+
+img {
+    display: inline-block;
+}
+
+
+/* ---------------------------------------->grid system part 3 <--------------------------------------------------------- */
+
+.part3 {
+    background-color: white;
+    width: 70%;
+    /* position: absolute; */
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 50%; */
+    /* transform: translate(-50%, 50%); */
+    padding: 0px;
+}
+
+.wrapper2 {
+    /* margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; */
+    /* grid-auto-rows: minmax(100px, auto); */
+    /* grid-auto-columns: minmax(200px, auto); */
+    /* grid-auto-columns: 33.3333333%; */
+    /* grid-auto-rows: 33.33333333%; */
+    /* text-align: center; */
+    /* grid-auto-rows: 200px; */
+    /* padding: 10px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: 400px;
+    padding: 10px;
+    background-color: rgb(240, 240, 255)
+}
+
+.post_one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-image: url(./picture/post1.jpeg);
+    height: 50%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-self: center;
+    justify-self: end;
+    /* position: relative; */
+}
+
+.post_two {
+    grid-column: 2;
+    grid-row: 1 / 2;
+    background-image: url(./picture/post2.jpg);
+    height: 50%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    place-self: center;
+}
+
+.post_three {
+    grid-column: 3;
+    grid-row: 1;
+    background-image: url(./picture/post3.jpg);
+    height: 50%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    place-self: center;
+    justify-self: start;
+}
+
+.post_four {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(./picture/post4.jpg);
+    height: 50%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    place-self: center;
+    justify-self: end;
+}
+
+.post_five {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(./picture/post5.jpg);
+    height: 50%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    place-self: center;
+}
+
+.post_six {
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url(./picture/4.jpg);
+    height: 50%;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    place-self: center;
+    justify-self: start;
+}
+
+.text1 img {
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 0.5px #d4d4d4 solid;
+}
+
+.content {
+    text-indent: 10px;
+    font-family: sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: normal;
+    font-size: 8px;
+}
+
+.fantasy {
+    background-color: rgb(112, 19, 100);
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 3px;
+}
+
+.action {
+    background-color: rgb(245, 20, 69);
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 3px;
+}
+
+.romance {
+    background-color: rgb(245, 20, 189);
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 3px;
+}
+
+.text1 {
+    text-align: left;
+    font-size: 10px;
+    padding-top: 210px;
+}
+
+.recent_post {
+    font-size: 23px;
+}
+
+.block {
+    border-bottom: 0px;
+}
+
+
+/* ------------------------------------>FOOTER<------------------------------------------------------- */
+
+.footer {
+    text-align: right;
+    display: inline-block;
+}
