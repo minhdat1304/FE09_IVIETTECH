@@ -46,3 +46,7 @@ header{
 .person{
 	border-radius: 25px;
 }
+body{
+	margin:auto;
+	max-width: 1100px;
+}
