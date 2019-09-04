@@ -1,0 +1,48 @@
+
+header{
+	width: 100%;
+}
+#header__left{
+	width: 50%;
+	display: inline-block;
+}
+#header__right{
+	width: 43%;
+	display: inline-block;
+}
+#nav{
+	  list-style-type:  none;
+	  display:inline-block;
+      font-size:15px;
+      color:black;
+      text-decoration:none;
+      margin-left: : 100px;
+      margin-top: auto;
+}
+.li{
+	float: left;
+}
+.ali{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+
+}
+#article{
+	background-color: #f1f1f1;
+	width: auto;
+	height: 200px;
+}
+.art{
+	display: inline-block;
+	width: 33%
+
+}
+.img{
+	width: 300px;	
+}
+.person{
+	border-radius: 25px;
+}
