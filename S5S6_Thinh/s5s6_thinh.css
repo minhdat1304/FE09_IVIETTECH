@@ -50,7 +50,8 @@ header>nav{
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: double;
+    text-decoration-line: underline;
+    text-decoration-style: double;
 }
 .midle_text{
     width: 100%;
@@ -94,4 +95,5 @@ header>nav{
 }
 footer{
     width: 100%;
+    text-align: center;
 }
