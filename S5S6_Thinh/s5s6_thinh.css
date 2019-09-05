@@ -1,5 +1,8 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 header{
     display: flex;
@@ -17,29 +20,78 @@ header>nav{
 }
 .dark{
     width: 100%;
+    min-width: 500px;
     background-color: black;
     color: white;
 }
 .light{
     width: 100%;
+    min-width: 500px;
     background-color: white;
     color: black;
 }
 .container{
-    width: 100%;
+    width: 90%;
     min-width: 500px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0px auto;
 }
 .lage_text{
-    width: 80%;
+    width: 100%;
+    max-width: 900px;
     margin: auto;
     font-size: 3rem;
     text-align: center;
 }
+.lager_text{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: double;
+}
 .midle_text{
-    width: 80%;
+    width: 100%;
+    max-width: 900px;
     margin: auto;
     font-size: 1.7rem;
     text-align: center
+}
+.new_container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.new1{
+    width: 25%;
+    min-width: 202px;
+    margin: auto;
+    background-color: aqua;
+    padding: 1rem;
+    color: black;
+}
+.new1 img[src*="team"]{
+    width: 100%;
+}
+.new2{
+    width: 25%;
+    min-width: 202px;
+    background-color: white;
+    padding: 1rem;
+    color: black;
+    margin: auto;
+}
+.box{
+    width: 25%;
+    min-width: 202px;
+    margin: auto;
+}
+.form_contasct, .contact{
+    width: 50%;
+}
+footer{
+    width: 100%;
 }
