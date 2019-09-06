@@ -100,7 +100,7 @@ header{
 }
 .logo{
     display: block;
-    width: 40%;
+    width: 30%;
     height: 100%;
 }
 img[src="kt_logo.png"]{
@@ -111,13 +111,13 @@ img[src="kt_logo.png"]{
     
 
 nav{
-    width: 60%;
+    width: 70%;
     height: 100%;
 }
 nav ul{
     float: right;
     display: flex;
-    width: 500px;
+    width: 600px;
     list-style: none;
     padding-inline-start: 0px;
 }
