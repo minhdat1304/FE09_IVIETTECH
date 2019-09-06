@@ -47,8 +47,11 @@ a{
     margin: 30px auto;
     font-size: 3rem;
     text-align: center;
+    
+}
+.lager_text span{
     text-transform: uppercase;
-    border-bottom: thin double gray;
+    border-bottom: 3px double gray;
 }
 .midle_text{
     width: 100%;
