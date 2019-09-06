@@ -33,6 +33,7 @@ a{
     min-width: 500px;
     max-width: 1300px;
     margin: 0px auto;
+    padding: 20px 0px;
 }
 .lage_text{
     width: 100%;
@@ -268,7 +269,7 @@ form.form_contact input[type=submit]{
 }
 #map{
     width: 95%;
-    min-width: 400px;
+    min-width: 200px;
     min-height: 150px;
 }
 iframe{
