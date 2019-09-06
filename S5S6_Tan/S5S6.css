@@ -125,7 +125,7 @@
 	float: left;
 }
 input[type=text], select  {
-  width: 90%;
+  width: 80%;
   padding: 12px 20px;
   margin: 10px;
   display: inline-block;
@@ -147,7 +147,10 @@ input[type=submit] {
 	height: 100px;
 	margin-left: 57px;
 }
-#subject, #send{
+#subject{
+	margin-left: 0px;
+}
+#send{
 	margin-left: 57px;
 }
 .righttext{
