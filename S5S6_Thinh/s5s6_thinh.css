@@ -216,6 +216,7 @@ nav a:hover{
 }
 form.form_contact, .contact{
     width: 50%;
+    padding: 5px;
 }
 form.form_contact input[type=text]{
     display: block;
@@ -257,6 +258,12 @@ form.form_contact input[type=submit]{
     font-size:35px;
     color:black;
 
+}
+.contact p{
+    padding:10px 0px;
+}
+.contact span{
+    font-weight: bolder;
 }
 #map{
     width: 95%;
