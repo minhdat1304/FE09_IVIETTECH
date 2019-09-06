@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    width: 100%;
+    font-family: cursive;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    /* background: aqua; */
+    width: 100%;
+    background: url(/img/4656e81f6dc57c5.jpg);
+    padding-bottom: 20px;
+}
+
+section {
+    width: 100%;
+    /* background: bisque; */
+}
+.section1 {
+    /* height: 393px; */
+    width: 90%;
+    /* background: aquamarine; */
+    margin: auto;
+}
+.section1 div {
+    display: inline-block;
+}
+.section1 div {
+    padding: 5px;
+    /* border: solid 2px; */
+}
+.section1 img {
+    border: 1px solid;
+}
+.section1 div {
+    width: 20%;
+}
+.section1 {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* section 2 */
+.section2 {
+    padding-top: 30px;
+    /* background-size: contain; */
+    height: 308xp;
+    text-align: center;
+    /* background: red; */
+    background: url(/img/4656e81f6dc57c5.jpg);
+    /* margin: auto; */
+    padding-bottom: 30px;
+}
+.section2 div {
+    display: inline-block;
+}
+.section2-layout {
+    width: 90%;
+}
+.section2-layout div {
+    padding: 10px;
+    width: 20%;
+    background: white;
+}
+/* section3 */
+/* .section3 {
+    background: blue;
+} */
+.section3 div {
+    display: inline-block;
+}
+.btn-section3 {
+    /* float: left!important; */
+    width: 100%;
+}
+.section3 {
+    text-align: center;
+}
+
+.btn-section3 span {
+    float: left;
+}
+.layout2-section3 {
+    width: 90%;
+}
+
+.layout2-section3 div {
+    padding: 5px;
+    /* background: aliceblue; */
+    width: 20%;
+}
+.layout2-section3 img {
+    padding: 5px;
+}
+.btn-section3 button {
+    width: 50px;
+}
+/* .layout-section3 .content1-section3 {
+
+} */
+.section4 {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    background: bisque;
+}
+.section4 div {
+    /* border: 5px solid; */
+    /* border: saddlebrown; */
+    padding: 10px;
+    display: inline-block;
+    background: blue;
+    width: 47.22%;
+}
+span.text-section4 {
+    text-align: center;
+}
+.content1-section4 span {
+    display: flex;
+}
+i.far.fa-envelope {
+    /* margin: inherit; */
+    padding: 9px;
+/*     top: 59%; */
+}
+.content1-section4 {
+    font-size: 15px;
+}
+.content2-section4 span {
+    display: flex;
+    font-size: 15px;
+}
+footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    background: #000000;
+    color: white;
+    /* padding: 10px; */
+}
