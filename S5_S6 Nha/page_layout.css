@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+
+main {
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head {
+    height: 300px;
+    background-image: url(./img/backgroundheader.jpg);
+    /* border: 0.5px solid #CDCDCD; */
+    margin-bottom: 5px;
+    background-repeat: none;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-origin: border-box; */
+}
+
+
+/* ---------------------------------><-------------------------------------------- */
+
+section {
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+h2 {
+    color: orange;
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa .fa-cloud {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* --------------------------------------->PROFILE<-------------------------------------------- */
+
+.profile {
+    background-color: rgb(255, 253, 251);
+    width: 90%;
+    height: 350px;
+    /* border-top-right-radius: 15px;
+    border-top-left-radius: 15px; */
+    /* border-radius: 15px; */
+    /* box-shadow: 3px 5px 10px rgb(128, 110, 98); */
+    text-align: center;
+}
+
+
+/* -------------------------------------->OUR SERVICE<-------------------------------------------------------- */
+
+.our-service {
+    background-image: url(./img/backgroundheader.jpg);
+    height: 300px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.function {
+    background-color: rgb(255, 253, 251);
+    width: 90%;
+    height: 190px;
+    /* border-top-right-radius: 15px;
+    border-top-left-radius: 15px; */
+    border-radius: 15px;
+    border: 2px solid rgb(170, 169, 169);
+    /* box-shadow: 3px 5px 10px rgb(128, 110, 98); */
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+.btn {
+    border: 1px solid black;
+    background-color: #55ACEE;
+    /* font-weight: 400px; */
+    /* width: 190px; */
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px 30px;
+}
+
+
+/* ------------------------------------------->MENU<-------------------------------------------------------- */
+
+.menu {
+    height: 50px;
+    width: 800px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+}
+
+.recent_works {
+    height: 700px;
+    width: 900px;
+}
