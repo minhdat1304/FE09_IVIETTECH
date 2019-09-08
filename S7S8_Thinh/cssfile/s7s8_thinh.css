@@ -1,6 +1,11 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 body{
   font-size: 20px;
-  margin: 10px auto;
+  box-sizing: border-box;
 }
 .moblie_nav{
     width: 100%;
@@ -24,11 +29,10 @@ body{
     float: right;
 }
 .buttoma{
-    box-sizing: border-box;
     width: 50%;
     height: 100%;
     display: block;
-    font-size: 45px;
+    font-size: 2.25em;
     color: white;
     background: green;
     text-align: center;
@@ -49,7 +53,7 @@ body{
     text-align: left;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1em;
 }
     #open_menu,#close_menu{
         display: none !important;
@@ -129,6 +133,5 @@ body{
     }
     #open_menu:target ~ .ul_mb_menu{
         display: block;
-        transform: 5s;
     }
   
