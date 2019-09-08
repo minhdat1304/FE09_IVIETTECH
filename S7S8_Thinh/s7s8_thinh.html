@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./cssfile/s7s8_thinh.css">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700&display=swap&subset=vietnamese" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -70,7 +71,7 @@
             </div> 
         </div>
         <div class="new_container">
-            <div class="picture">
+            <div class="picture radus">
                 <img src="./picture/Capture1.PNG" alt="">
               </div>
             <div class="text">
@@ -92,11 +93,11 @@
                 </div>
                 <div class="menu_text">
                   <h3 class="header">~ Meat Menu ~</h3>
-                  <p>Bocconcini di carne in nido di sfoglia</p>
-                  <p>Bruschette con maiale al curry</p>
-                  <p>Uova al prosciutto</p>
-                  <p>Vitello tonnato</p>
-                  <p>Fesa di tacchino marinata con olive</p>
+                  <p class="pmenu">Bocconcini di carne in nido di sfoglia</p>
+                  <p class="pmenu">Bruschette con maiale al curry</p>
+                  <p class="pmenu">Uova al prosciutto</p>
+                  <p class="pmenu">Vitello tonnato</p>
+                  <p class="pmenu">Fesa di tacchino marinata con olive</p>
                 </div>
               </div>
               <div class="menu1">
@@ -105,11 +106,11 @@
                 </div>
                 <div class="menu_text">
                   <h3 class="header">~ Meat Menu ~</h3>
-                  <p>Bocconcini di carne in nido di sfoglia</p>
-                  <p>Bruschette con maiale al curry</p>
-                  <p>Uova al prosciutto</p>
-                  <p>Vitello tonnato</p>
-                  <p>Fesa di tacchino marinata con olive</p>
+                  <p class="pmenu">Bocconcini di carne in nido di sfoglia</p>
+                  <p class="pmenu">Bruschette con maiale al curry</p>
+                  <p class="pmenu">Uova al prosciutto</p>
+                  <p class="pmenu">Vitello tonnato</p>
+                  <p class="pmenu">Fesa di tacchino marinata con olive</p>
                 </div>
               </div>
               <div class="menu1">
@@ -118,11 +119,11 @@
                 </div>
                 <div class="menu_text">
                   <h3 class="header">~ Meat Menu ~</h3>
-                  <p>Bocconcini di carne in nido di sfoglia</p>
-                  <p>Bruschette con maiale al curry</p>
-                  <p>Uova al prosciutto</p>
-                  <p>Vitello tonnato</p>
-                  <p>Fesa di tacchino marinata con olive</p>
+                  <p class="pmenu">Bocconcini di carne in nido di sfoglia</p>
+                  <p class="pmenu">Bruschette con maiale al curry</p>
+                  <p class="pmenu">Uova al prosciutto</p>
+                  <p class="pmenu">Vitello tonnato</p>
+                  <p class="pmenu">Fesa di tacchino marinata con olive</p>
                 </div>
               </div>
       </section>
@@ -130,34 +131,44 @@
           <h2 class="header">~ Reservation ~</h2>
           <div class="timetables">
             <h2>Timetables</h2>
-            <h3>Lunch</h3>
-            <p>12:00 - 15:00</p>
-            <h3>Dinner</h3>
-            <p>19:30 - 23:30</p>
+            <div class="timetables_left">
+                <h3>Lunch</h3>
+                <p>12:00 - 15:00</p>
+            </div>
+            <div class="timetables_right">
+                <h3>Dinner</h3>
+                <p>19:30 - 23:30</p>
+            </div>
+
           </div>
       </section>
-      <form action="" class="form">
+      <form action="" class="container">
         <div class="form_left">
           <h2>Reserve</h2>
           <p>Date</p>
-          <input type="text">
+          <input type="text"placeholder="1/1/2019">
           <p>Timetables</p>
-          <input type="text">
+          <input type="text"placeholder="Lunch">
           <p>Number of Guests</p>
-          <input type="text">
+          <input type="text"placeholder="1">
         </div>
         <div class="form_right">
             <h2>Details</h2>
             <p>Name</p>
-            <input type="text">
+            <input type="text" placeholder="Name">
             <p>Email</p>
-            <input type="text">
+            <input type="text"placeholder="..@..">
             <p>Phone</p>
-            <input type="text">
+            <input type="text"placeholder="+84">
         </div>
-        <p>Message</p>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button class="Reserve_buttom">Reserve</button>
+        <div id="Message">
+            <p>Message</p>
+            <textarea name=""  cols="30" rows="10"placeholder="Message"></textarea>
+            <button class="Reserve_buttom">Reserve</button>
+            
+          </div>
+        
+        
       </form>  
       <div class="location">
           <h2>~ Our Location ~</h2>

@@ -4,6 +4,7 @@
   padding: 0px;
 }
 body{
+  font-family: 'Lemonada', cursive;
   font-size: 20px;
   box-sizing: border-box;
 }
@@ -141,7 +142,7 @@ h2{
 .container,.menu_container{
   width: 100%;
 }
-.new_container,.menu1{
+.new_container,.menu1,.form_left,.form_right,#Message{
   width: 100%;
   padding: 1.5em;
   margin: .5em auto;
@@ -156,13 +157,51 @@ img[src*="Capture"]{
   min-width: 300px;
   min-height: 300px;
 }
-.text,.menu_text{
+.radus{
+  border-radius: .5em;
+}
+.text{
   width: 100%;
 }
+.menu_text{
+  width: 100%;
+  background-color: white;
+}
 .timetables{
+  position: relative;
   background-image: url(../picture/Capture7.PNG);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 400px;
+}
+.timetables_left{
+  width: 50%;
+  padding: 2em;
+  text-align: center;
+  float: left;
+}
+.timetables_right{
+  width: 50%;
+  padding: 2em;
+  text-align: center;
+  float: right;
+}
+.header{
+  padding: .5em;
+}
+.pmenu{
+  padding: .25em;
+  border-top:1px solid gray;
+}
+input,[placeholder="Message"] {
+  display: block;
+  width: 80%;
+}
+.Reserve_buttom{
+  width: 200px;
+  height: 50px;
+  font-size: 1em;
+  background-color: aqua;
+  margin: .5em;
 }
