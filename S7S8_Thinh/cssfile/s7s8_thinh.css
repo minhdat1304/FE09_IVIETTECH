@@ -13,9 +13,9 @@ h2{
 }
 .moblie_nav{
     width: 100%;
-    min-width: 400px;
-    
+    min-width: 400px;  
 }
+
 .mb_logo{
     width: 100%;
     display: flex;
@@ -199,6 +199,7 @@ img[src*="Capture"]{
 input,[placeholder="Message"] {
   display: block;
   width: 80%;
+  border: 1px solid gray;
 }
 .myButton {
 	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
@@ -275,6 +276,13 @@ iframe{
   .moblie_nav{
     display: flex;
     background-color: #f8f9fa;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 5;
+  }
+  .carousel-wrapper {
+    margin-top: 60px;
   }
   .mb_logo{
     display: block;
@@ -299,12 +307,14 @@ iframe{
     height: 40px;
     margin: 20px 0px;
     border-radius: 10px;
+    border: 2px solid gray;
   }
   [placeholder="Message"] 
   {
   width: 90%;
   height: 140px;
   margin: 20px 0px;
+  border: 2px solid gray;
   border-radius: 10px;
   }
 
