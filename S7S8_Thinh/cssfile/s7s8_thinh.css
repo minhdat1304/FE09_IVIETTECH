@@ -23,10 +23,12 @@ h2{
 }
 .mb_logo_img{
     width: 80%;
+    margin: 0px auto;
 }
 [src*="logo.png"]{
     width: 120px;
     height: 50px;
+    
 }
 .buttom{
     width: 20%;
@@ -204,4 +206,113 @@ input,[placeholder="Message"] {
   font-size: 1em;
   background-color: aqua;
   margin: .5em;
+}
+#map{
+  width: 95%;
+  min-width: 300px;
+  min-height: 150px;
+}
+iframe{
+  width:100%;
+  height:100%;
+}
+
+@media only screen and (min-width: 570px){
+  body{
+    font-size: 16px;
+  }
+  .buttom{
+    display: none;
+  }
+  .moblie_nav{
+    display: flex;
+    background-color: #f8f9fa;
+  }
+  .mb_logo{
+    display: block;
+    width: 23%;
+    text-align: center;
+  }
+  .ul_mb_menu{
+    display: flex !important;
+    width: 77%;
+  }
+  .mb_menuli{
+    padding: 0px;
+    margin: auto;
+    border: none;
+    text-align: center;
+  }
+  .mb_menuli a{
+    font-size: 0.8em;
+  }
+  input{
+    width: 90%;
+    height: 40px;
+    margin: 20px 0px;
+    border-radius: 10px;
+  }
+  [placeholder="Message"] 
+  {
+  width: 90%;
+  height: 140px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  }
+
+} 
+@media only screen and (min-width: 769px){
+  
+  .mb_logo{
+    width: 30%;
+  }
+  .ul_mb_menu{
+    width: 70%;
+  }
+  .mb_menuli a{
+    font-size: 1em;
+  }
+
+  .form_left,.left{
+    width: 50%;
+    float: left;
+  }
+  .form_right,.right{
+    width: 50%;
+    float: right;
+  }
+  img[src*="Capture"]{
+    width: 100%;
+    padding: 20px;
+  }
+
+  input{
+  height: 50px;
+  }
+  [placeholder="Message"]{
+  width: 95%;
+  }
+
+}
+@media only screen and (min-width: 993px){
+  .moblie_nav{
+    display: block;
+    height: 60px;
+  }
+    .mb_logo{
+      width: 193px;
+      float: left;
+    }
+    .ul_mb_menu{
+      width: 700px;
+      float: right;
+      margin: 14px 0px;
+    }
+    .carousel-wrapper {
+      min-height: 500px;
+    }
+    .main{
+     max-width: 1342px;
+     margin: 0px auto;
+    }
 }
