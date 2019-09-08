@@ -7,6 +7,9 @@ body{
   font-size: 20px;
   box-sizing: border-box;
 }
+h2{
+  text-align: center;
+}
 .moblie_nav{
     width: 100%;
     min-width: 400px;
@@ -134,4 +137,31 @@ body{
     #open_menu:target ~ .ul_mb_menu{
         display: block;
     }
-  
+.container,.menu_container{
+  width: 100%;
+}
+.new_container,.menu1{
+  width: 100%;
+  padding: 1.5em;
+  margin: .5em auto;
+  background-color: #aaa;
+}
+.picture,.menu_picture{
+  width: 100%;
+}
+img[src*="Capture"]{
+  width: 100%;
+  height: auto;
+  min-width: 300px;
+  min-height: 300px;
+}
+.text,.menu_text{
+  width: 100%;
+}
+.timetables{
+  background-image: url(../picture/Capture7.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
