@@ -1,0 +1,40 @@
+@media only screen and (max-width: 992px){
+    .container{
+       
+        background-color: yellowgreen;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .container{
+    
+        background-color: blueviolet;
+    }
+    .main1_left{
+        width: 70%;
+        height: 200px;
+        /* background-color: aqua;  */
+    
+    }
+    .main1_mid{
+        width: 70%;
+        height: 200px;
+        /* background-image: url(./img/pic5.png);
+        background-size: 100% 480px;
+        background-repeat: no-repeat; */
+        /* background-color: bisque; */
+    }
+    .main1_right{
+        width: 70%;
+        height: 200px;
+        /* background-color: aqua; */
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .container{
+    
+        background-color: rgba(235, 153, 214, 0.781);
+    }
+}
