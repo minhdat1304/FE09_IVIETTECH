@@ -198,7 +198,10 @@ img[src*="Capture"]{
 }
 input,[placeholder="Message"] {
   display: block;
-  width: 80%;
+  width: 90%;
+  height: auto;
+  min-height: 50px;
+  border-radius: 10px;
   border: 1px solid gray;
 }
 .myButton {
@@ -303,19 +306,17 @@ iframe{
     font-size: 0.8em;
   }
   input{
-    width: 90%;
+   
     height: 40px;
     margin: 20px 0px;
-    border-radius: 10px;
     border: 2px solid gray;
   }
   [placeholder="Message"] 
   {
-  width: 90%;
+  
   height: 140px;
   margin: 20px 0px;
   border: 2px solid gray;
-  border-radius: 10px;
   }
 
 } 
