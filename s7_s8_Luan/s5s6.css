@@ -1,0 +1,183 @@
+body {
+	display: flex;
+}
+.box3khung {
+	width: 100%;
+	height: 7cm;
+}
+.box1 {
+	padding-top: 1cm;
+	min-width: 90%;
+	height: 4cm;
+	margin-left: 1cm;
+	margin-right: 1cm;
+	background-image: url(./img1.jpg);
+	color: #FFFF00;
+}
+.box2 {
+	min-width: 100px;
+	height: 3cm;
+	margin-left: 1cm;
+	margin-right: 1cm;
+}
+hr{
+	margin-right: 14cm;
+	margin-left: 14cm;
+}
+.box3 {
+	min-width: 100px;
+	height: 7cm;
+	margin-left: 5cm;
+	margin-right: 5cm;
+}
+.box31 {
+	width: 24.5%;
+	height: 70%;
+	float: left;
+	border-right: 6px solid #FBEFEF;
+	background-image: url(./img10.jpg);
+}
+.box32 {
+	width: 24.5%;
+	height: 70%;
+	float: left;
+	border-right: 6px solid #FBEFEF;
+	background-image: url(./img8.jpg);
+}
+.box33 {
+	width: 24.5%;
+	height: 70%;
+	float: left;
+	border-right: 6px solid #FBEFEF;
+	background-image: url(./img6.jpg);
+}
+.box34 {
+	width: 24.5%;
+	height: 70%;
+	float: left;
+	background-image: url(./img7.jpg);
+}
+.box35 {
+	min-width: 100px;
+	height: 5cm;
+}
+.text1 {
+	width: 25%;
+	height: 30%;
+	float: left;
+}
+.text2 {
+	width: 25%;
+	height: 30%;
+	float: right;
+}
+.text3 {
+	width: 25%;
+	height: 30%;
+	float: right;
+}
+.text4 {
+	width: 25%;
+	height: 30%;
+	float: right;
+}
+.boxnew {
+	margin-top: 1cm;
+	width: 100%;
+	height: 10cm;
+}
+.boxtext2 {
+	min-width: 100px;
+	height: 6cm;
+	margin-left: 5cm;
+	margin-right: 5cm;
+}
+.boxtext21 {
+	width: 24.5%;
+	height: 70%;
+	float: left;
+	border-right: 6px solid #FBEFEF;
+	background-image: url(./img10.jpg);
+}
+.boxtext22 {
+	width: 24.5%;
+	height: 70%;
+	float: left;
+	border-right: 6px solid #FBEFEF;
+	background-image: url(./img10.jpg);
+}
+.boxtext23 {
+	width: 24.5%;
+	height: 70%;
+	float: left;
+	border-right: 6px solid #FBEFEF;
+	background-image: url(./img10.jpg);
+}
+.boxtext24 {
+	width: 24.5%;
+	height: 70%;
+	float: left;
+	background-image: url(./img10.jpg);
+}
+.boxtext3 {
+	min-width: 100%;
+	height: 100%
+}
+.boxtext31 {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.boxtext32 {
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+.boxtext33 {
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+.boxtext34 {
+	width: 25%;
+	height: 100%;
+	float: right;
+} 
+.main1 {
+	max-width: 100%;
+	height: 8cm;
+	margin-left: 7cm;
+	margin-right: 7cm;
+	background-color: red;
+}
+.main11 {
+	width: 50%;
+	height: 100%;
+	background-color: blue;
+	float: left;
+}
+.main12 {
+	width: 50%;
+	height: 100%;
+	background-color: green;
+	float: left;
+}
+.main2 {
+	max-width: 100%;
+	height: 8cm;
+	margin-left: 7cm;
+	margin-right: 7cm;
+	background-color: red;
+}
+.main21 {
+	width: 50%;
+	height: 100%;
+	background-color: black;
+	float: left;
+}
+.main22 {
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
