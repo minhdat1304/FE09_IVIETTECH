@@ -255,12 +255,13 @@ iframe{
 }
 .footer{
   background-color: #f8f9fa;
-  display: flex;
+  
   width: 100%;
   margin: 20px 0px;
 }
-.footer span{
-  display: inline-block;
+
+.block{
+  display: block;
   margin: auto;
 }
 .footer_link{
@@ -317,6 +318,12 @@ iframe{
   height: 140px;
   margin: 20px 0px;
   border: 2px solid gray;
+  }
+  .footer{
+    display: flex;
+  }
+  .block{
+    display: inline-block;
   }
 
 } 
