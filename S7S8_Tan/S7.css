@@ -1,0 +1,94 @@
+body{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+}
+.banner{
+	width: 100%;
+	background-color: white;
+	display: flex;
+}
+.logo{
+	width: 25%;
+    background: white;
+    display: flex;
+}
+.imgbanner{
+	width: 30%;
+}
+.imgbanner img{
+	width: 90%;
+}
+.banner1{
+    text-align: right;
+    width: 75%;
+    margin: auto;
+}
+.banner1 a{
+	margin: 7px;
+}
+.textheader{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+.header{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	height: 300px;
+	position: relative;
+}
+.imgheader{
+	width: 100%;
+}
+.imgheader img{
+	width: 90%;
+}
+.restaurant{
+    width: 80%;
+    background: #E8E8E8;
+    margin: auto;
+    margin-top: 580px;
+}
+.content1{
+	text-align: center;
+}
+.restaurant1, .restaurant2{
+	display: flex;
+}
+.textres1, .textres2{
+	width: 50%;
+}
+.imgres1, .imgres2{
+	width: 50%;
+}
+.imgres1 img, .imgres2 img{
+	width: 90%;
+	padding: 20px;
+}
+.menu{
+	width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.content2{
+	text-align: center;
+}
+.menu1{
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+}
+.left, .mid, .right{
+	width: 33.33%;
+	float: left;
+}
+.imgleft, .imgmid, .imgright{
+	width: 60%;
+}
+.imgleft img, .imgmid img, .imgright img{
+	width: 150%;
+}
+@media only screen and (max-width: 576px){
+
+}
