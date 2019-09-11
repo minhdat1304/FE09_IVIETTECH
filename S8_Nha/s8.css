@@ -1,0 +1,64 @@
+/* ------------------------------------------------HEADER--------------------------------------- */
+
+.header {
+    background-color: #fcfcfc;
+    display: block;
+    height: 55px;
+    /* position: fixed; */
+}
+
+.site_name {
+    float: left;
+    background-color: red;
+    width: 10%;
+    display: inline-block;
+    height: 100%;
+}
+
+.textlogo {
+    width: 10%;
+    float: left;
+    vertical-align: middle;
+}
+
+.main_nav {
+    float: right;
+    background-color: yellow;
+    list-style: none;
+    margin: 0px;
+}
+
+.main_nav li {
+    float: left;
+}
+
+.main_nav li a {
+    display: block;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.row {
+    max-width: 100%;
+    /* margin-left: 70px; */
+    margin: 0 auto;
+}
+
+section {
+    padding: 6px;
+}
+
+.slide {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./picture/post3.jpg)
+}
+
+.part1 {
+    height: 200px;
+}
