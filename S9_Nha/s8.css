@@ -61,4 +61,50 @@ section {
 
 .part1 {
     height: 200px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.part1_right_top {
+    background-image: url(./picture/post4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.part2 {
+    height: 200px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.title_menu {
+    text-align: center;
+}
+
+.part2_left {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.part2_middle {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.part2_right {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.MEAT_MENU {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.text {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
