@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    font-family: 'Lemonada', cursive;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -352,7 +362,6 @@
           }
           .item4,.item5{
               width: 80%;
-              max-width: 1200px;
           }
           .item3,.item6{
             width: 10%;
