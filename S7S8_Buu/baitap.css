@@ -59,8 +59,8 @@ body {
  	display: none;
  }
  .main-right {
- 	/*display: contents !important;*/
- 	width: 100% !important;
+ 	display: contents !important;
+ 	width: 100%;
  	margin-top:30px; 
  }
  .main-right .right-top {
