@@ -1,0 +1,131 @@
+body{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+}
+.banner{
+	width: 100%;
+	background-color: white;
+	display: flex;
+}
+.textbanner a{
+	color: black;
+	text-decoration: none;
+}
+.logo{
+	width: 25%;
+    background: white;
+    display: flex;
+}
+.imgbanner{
+	width: 30%;
+}
+.imgbanner img{
+	width: 90%;
+}
+.banner1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 75%;
+    align-items: center;
+}
+.banner1 a{
+	margin: 7px;
+	text-decoration: none;
+	color: black;
+}
+.textheader{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+.header{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	height: 300px;
+	position: relative;
+}
+.imgheader{
+	width: 100%;
+}
+.imgheader img{
+	width: 90%;
+}
+.restaurant{
+    width: 80%;
+    background: #E8E8E8;
+    margin: auto;
+    margin-top: 580px;
+}
+.content1{
+	text-align: center;
+}
+.restaurant1, .restaurant2{
+	display: flex;
+	flex-direction: row;
+}
+.textres1, .textres2{
+	width: 50%;
+}
+.imgres1, .imgres2{
+	width: 50%;
+}
+.imgres1 img, .imgres2 img{
+	width: 90%;
+	padding: 20px;
+}
+.menu{
+	width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.content2{
+	text-align: center;
+}
+.menu1{
+	display: flex;
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+}
+.left, .mid, .right{
+	float: left;
+}
+.imgleft, .imgmid, .imgright{
+	width: 60%;
+}
+.imgleft img, .imgmid img, .imgright img{
+	width: 150%;
+}
+@media only screen and (max-width: 567px){
+	.menu1{
+		display: block;
+		width: 100%;
+		margin: auto;
+	}
+	.restaurant{
+		margin: auto;
+	}
+	.restaurant1, .restaurant2{
+		flex-direction: column;
+	}
+	.imgres1{
+		order: 1;
+		width: 100%;
+	}
+	.textres1{
+		order: 2;
+		flex-basis: auto;
+		width: 100%;
+		padding: 15px;
+	}
+	.imgres2{
+		width: 100%;
+	}
+	.textres2{
+		flex-basis: auto;
+		width: 100%;
+		padding: 15px;
+	}
+}

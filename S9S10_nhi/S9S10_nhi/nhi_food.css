@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'hearbeat';
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+body{
+    /* width: 100%;
+    height: 100%; */
+    background: rgb(0, 0, 0);
+}
+#main-body{
+    /* padding: 10px; */
+    width: 1000px;
+    height: 100%;
+    /* background: yellow; */
+    margin: 0 auto;
+}
+/* css for header */
+#header-content{
+    width: 100%;
+    height: 400px;
+    /* background: red; */
+}
+#head-content{
+    width: 100%;
+    height: 80px;
+    background: white;
+}
+#logo-element{
+    width: 420px;
+    height: 80px;
+    /* background: green; */
+    float: left;
+
+}
+#logo-element img{
+    transform: translateY(9%);
+    margin: 5px;
+    max-width: 100px;
+    max-height: 100px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+}
+#logo-element h1{
+    margin-left: 10px;
+    transform: translateY(50%);
+    width: 300px;
+    float: left;
+    font-style: oblique;
+    font-weight: normal;
+}
+/* #nav-element{
+    width: 560px;
+    height: 80px;
+    background: red;
+    float: right;
+    font-size: 18px;
+}
+#nav-element a{
+    padding: 5px 10px;
+    background: yellow;
+    line-height: 80px;
+    border-radius: 5px;
+    color: rgb(90, 89, 89);
+} */
+#menu{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+#menu a{
+    padding: 5px 10px;
+    line-height: 80px;
+    border-radius: 5px;
+    color: rgb(90, 89, 89);
+}
+#nav-element a:hover{
+    background: darkgrey;
+    color: black;
+}
+#banner-content{
+    background-image: url(pa.png!d);
+    width: 100%;
+    height: 320px;
+    /* background: blue; */
+}
+#banner-content img{
+    width: 100%;
+    max-width: 100%;
+    height: 320px;
+}
+#banner-content span{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* z-index: 1; */
+}
+#banner-content .dot{
+    position: relative;
+    color: darkgrey;
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+#banner-content .back{
+    top: 50%;
+    transform: translate(-50%);
+}
+#banner-content .back:hover{
+    background: darkgrey;
+    color: beige;
+}
+#banner-content .next{
+    top: 60%;
+    left: 83%;
+    transform: translate(-50%,-80%);
+}
+#banner-content .next:hover{
+    background: darkgrey;
+    color: beige;
+}
+/* css for section */
+#main-content{
+    width: 100%;
+    height: 1000px;
+    max-height: 1000px;
+    background: black;
+    display: block;
+}
+#left-element{
+    width: 100px;
+    height: 100%;
+    background: white;
+    float: left;
+}
+#right-element{
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: white;
+}
+#center-element{
+    float: left;
+    max-width: 800px;
+    width: 800px;
+    height: 100%;
+    background: white;
+}
+#top-element{
+    width: 100%;
+    height: 50%;
+    float: left;
+    padding: 10px;
+    /* background: yellow; */
+}
+#top-element h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+#top-element .title{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px 0px;
+    
+}
+#p1{
+    padding-right: 300px;
+    height: 40%;
+    background-image: url(p-a.jfif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#p2{
+    padding-left: 300px;
+    height: 50%;
+    background-image: url(p-a.jfif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: scroll;
+}
+#bottom-element{
+    width: 100%;
+    height: 50%;
+    float: left;
+    padding: 10px;
+    /* background: rgb(79, 147, 236); */
+}
+#bottom-element h3{
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+}
+#bottom-element .cols-el{
+    width: 240px;
+    height: 410px;
+    border: 1px solid silver;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+#bottom-element .cols-el .title{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+#bottom-element .cols-el img{
+    width: 100%;
+    height: 140px;
+}
+#bottom-element .cols-el a{
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    border-top: 0.5px solid silver;
+}
+#bottom-element .cols-all{
+    margin: 0 10px;
+}
+#bottom-element .cols-right{
+    margin-left: 10px;
+}
+/* css for footer */    
+#footer-content{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: rgb(58, 57, 57);
+    color: darkgrey;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+}
+@media only screen and (max-width: 768px){
+  .main-body{
+    width: 100%;
+      display: block;
+
+  }
+}

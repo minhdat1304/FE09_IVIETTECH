@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1920px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    width: 100%;
+}
+/* ----------HEADER----------- */
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    position: fixed;
+    background-color:rgb(255, 251, 247);
+}
+.logo a{
+    text-decoration: none;
+    font-size: 1.75em;
+    font-style: italic;
+    color: gray;
+}
+.logo a img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: rgb(230, 176, 176); */
+    list-style: none;
+    padding:5px 0;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2em;
+    /* padding: 5px 20px; */
+    /* background-color: aquamarine; */
+    
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar ul li{
+    padding: 5px 10px;
+}
+.pic-language{
+    width: 20px;
+    height: 20px;
+}
+.navbar-hidden{
+    font-size: 2em;
+    display: none;
+}
+/* ----------------BANNER-------------- */
+.banner{
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+    padding-top:400px;
+    /* position: relative; */
+    background-image: url(./img/slider1.jpg);
+    background-size: 100% 100%;
+    /* vertical-align: middle; */
+}
+.banner p{
+    font-size: 5em;
+    color:white;
+}
+/* --------------MAIN-------------- */
+main{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: blue; */
+    
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.75em;
+}
+.res-new{
+    font-size: 1em;
+}
+/* -------------RESTAURANT------------- */
+.restaurant{
+    width: 100%;
+    height: auto;
+    background-color:rgba(223, 212, 212,0.2);
+}
+.title{
+    width: 100%;
+    height: 100px;
+    padding-top:30px;
+    text-align: center;
+}
+.res-row1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.res-content{
+    width: 50%;
+    height: 100%;
+    padding-left: 2.5%;
+    /* background-color: yellow; */
+}
+
+.res-picture{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.res-pic{
+    width: 90%;
+    height: 90%;
+    
+}
+.res-row2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+
+/* ---------------MENU--------------- */
+.menu{
+    width: 100%;
+    height: auto;
+    background-color: #f8f9fa
+    /* background-color: yellowgreen; */
+}
+.menu-box{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+    /* background-color: aquamarine; */
+}
+.detail-menu{
+    width: 31%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 190, 190);
+    
+    /* background-color: bisque; */
+}
+h4{
+    font-size: 1.5em;
+    padding-left: 20px;
+    /* background-color: brown; */
+}
+.menu-pic{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.menu-list{
+    list-style: none;
+    font-size: 1em;
+    line-height: 3em;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.menu-list li{
+    margin: 0 20px;
+    padding-left: 10px;
+    height: auto;
+    /* background-color: brown; */
+    border-top: 1px solid rgb(196, 190, 190);
+    
+}
+
+

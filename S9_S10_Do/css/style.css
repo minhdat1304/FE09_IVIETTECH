@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: cursive;
+}
+header {
+    background-color: #f8f9fa;
+    display: flex;
+    color: black;
+}
+.logo-header {
+    width: 30%;
+    /* background: aqua; */
+    margin: 10px;
+}
+
+.menu-header {
+    margin: 10px;
+    width: 70%;
+    /* background: blue; */
+    /* padding-top: 4px; */
+}
+/* img {
+    vertical-align: middle;
+} */
+.menu-header ul {
+    list-style-type: none;
+}
+.menu-header li {
+    display: inline-block;
+    /* text-decoration: none; */
+}
+.menu-header a {
+    text-decoration: none;
+    /* color: white; */
+    /* padding: 10px; */
+}
+.logo-header img {
+    vertical-align: middle;
+}
+img.img-menu {
+    display: inline-grid;
+}
+
+.menu-header img {
+    display: block;
+    /* vertical-align: middle; */
+}
+.menu-header li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-header img {display: inline-block;vertical-align: middle;}
+/* .section2 {
+    margin: auto;
+    width: 90%;
+    background: aqua;
+} */
+h1.section2-h1 {
+    text-align: center;
+}
+.section2-main {
+    /* width: 90%; */
+    margin: auto;
+    /* background-color: #f8f9fa; */
+}
+.section2-content1 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+.section2-content2 {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+.section2-main div {
+    background-color: #f8f9fa
+}
+section {
+    width: 90%;
+    margin: auto;
+}
+h1.section3-text {
+    text-align: center;
+}
+.section3-content div {
+    /* padding: 10px; */
+    float: left;
+}
+.section3-content1 {
+    background-color: #f8f9fa;
+    width: 33.33%;
+}
+.section3-content2 {
+    background-color: #f8f9fa;
+    width: 33.33%;
+}
+.section3-content3 {
+    background-color: #f8f9fa;
+    width: 33.33%;
+}
+/* .section3-content {
+    background: blanchedalmond;
+} */
+.section3-content ul {
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+.section3-content a {
+    text-decoration: none;
+}
+.boder-content {
+    margin: 10px;
+    /* padding: 10px; */
+    border: solid 1px;
+}
+.boder-content h5, ul {
+    padding: 9px;
+}
+/* .section2 div {
+    float: left;
+} */
+/* .section2-content1 {
+    float: left;
+    width: 50%;
+    background: antiquewhite;
+} */
+/* .section2 div {
+    float: left;
+} */
+/* .section2-content1 {
+    width: 50%;
+    background: blue;
+}
+
+.section2-content2 {
+    width: 50%;
+    background: azure;
+} */
