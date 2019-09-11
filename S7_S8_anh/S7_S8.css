@@ -1,0 +1,256 @@
+/*nav*/
+.header-container {
+    width: 100%;
+    height: 55px;
+}
+
+.footer-container {
+    width: 90%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    /*padding: 10px;*/
+    margin: 20px;
+    margin: auto;
+}
+
+.header-warp {
+    width: 50%;
+    float: left;
+}
+
+.img-nav {
+    /*margin-left: 20px;*/
+    height: 50px;
+}
+
+nav {
+    height: 55px;
+    width: 100%;
+    background: white;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    /*border-bottom: 2px solid black;*/
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    width: 550px;
+    height: 40px;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: block;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    float: right;
+    /*margin-right: 20px;*/
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    /*text-shadow: 1px 1px 0px #283744;*/
+}
+
+nav li a {
+    /*border-right: 1px solid #576979;*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+nav li:last-child a {
+    border-right: 0;
+}
+
+nav a:active {
+    background-color: #f8f9fa;
+}
+
+nav a:hover {
+    background-color: #f8f9fa;
+}
+
+nav a#pull {
+    display: none;
+}
+
+/*end nav*/
+/*responsive*/
+
+/*end responsive*/
+
+.img_backgound {
+    width: 100%;
+    height: 100%;
+    background-image: url('http://velobookcafe.xyz/picture/carosel1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img-warp {
+    width: 100%;
+    height: 600px;
+}
+
+.textCenter h1 {
+    width: 97%;
+    padding: 30px;
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+}
+
+/*box*/
+.box {
+    width: 66%;
+    margin: auto;
+    padding: 25px;
+    height: auto;
+    display: flex;
+}
+
+.box-warp {
+    width: 47%;
+    background-color: #f8f9fa;
+    float: left;
+    padding: 15px;
+}
+
+.box-warp img {
+    width: 100%;
+}
+
+.box2 {
+    width: 66%;
+    margin: auto;
+    padding: 25px;
+    height: auto;
+}
+
+.box-warp2 {
+    width: 33%;
+    float: right;
+    margin: 1em;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1em;
+}
+
+.box-warp2 img {
+    width: 80%;
+}
+
+.box-warp2 p {
+    text-align: left;
+    font-size: 17pt;
+}
+
+/*end  box*/
+/*resb*/
+
+@media screen and (max-width: 600px) {
+    nav {
+        height: auto;
+    }
+
+    nav ul {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+
+    nav li a {
+        border-bottom: 1px solid #f8f9fa;
+        border-right: 1px solid #f8f9fa;
+    }
+
+    nav a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+    }
+}
+
+@media only screen and (max-width : 1110px) {
+    .header-warp{
+    	width: 100%;
+    }
+}
+@media only screen and (max-width :600px) {
+    nav {
+        border-bottom: 0;
+    }
+
+    nav ul {
+        display: none;
+        height: auto;
+    }
+
+    nav a#pull {
+        display: block;
+        background-color: white;
+        width: 100%;
+        /*position: relative;*/
+    }
+
+    nav a#pull:after {
+        content: "";
+        background: url('iconfinder_43-Menu_3672676.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        bottom: 0px;
+    }
+    .header-warp{
+    	width: 100%;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    nav li a {
+        border-bottom: 1px solid #f8f9fa;
+    }
+    .header-warp{
+    	width: 100%;
+    }
+}
+
+
+/**/

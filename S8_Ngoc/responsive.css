@@ -1,55 +1,64 @@
 *{
 	margin:0;
+	max-width: 1920px;
 }
 body{
 	font-family: 'Merienda';
 	font-size: 18px;
-	max-width: 1920px;
+	
 }
 a{
 	text-decoration: none;
 }
-ul{
-	display: flex;	
+a:hover {
+  background-color: yellow;
 }
 #header{
+	display: flex;
 	position: fixed;
 	width: 100%;
 	height: 80px;
-	background-color: #e5e5e561;
+	background-color: #F0FFFF;
 }
 #imglogo{
-	margin-top: 10px;
-}
-.nav_item{
-	list-style-type:  none;	
-	float: left;
-}
-#logo{
-	position: relative;
-	width: 30%;
-	display: inline-block;
-	height: 100%;
+	vertical-align: middle;
+	margin: 10px;
 }
 nav{
-	position: relative;
-	width: 69%;
-	display: inline-block;
+	display: flex;
     height: 100%;
-    float: right;
+}
+.nav_item{
+	display: flex;
+	list-style-type:  none;	
+	float: left;	
+	margin: 10px;
+	padding: 15px;
+}
+#logo{
+	padding: 5px;
+	display: flex;
+	height: 100%;
+	width: 40%;
 }
 #textlogo{
 	color: black;
-	text-align: center;
 }
 .textnav{
-    color: #cccccc94;
+    color: #00000073;
 }
 #textcenter{
 	text-align: center;
 	font-size: 30px;
 	color: inherit;
     font-weight: 500;
+}
+#div_right1{
+	margin-top: 15px;
+	vertical-align: middle;
+}
+#div_left2{
+	margin-top: 15px;
 }
 #empty{
 	margin-top: 100px;
@@ -63,26 +72,35 @@ nav{
 #empty2{
 	margin-top: 100px;
 }
+
 #main0{
-	margin-left: 10%;
-	margin-right: 10%;
-	max-width: 90%;
+	margin-left: 20%;
+	margin-right: 20%;
+	max-width: 80%;
 }
 #main2{
 	display: flex;
-	align-items:center;
+	padding: 5px;
 }
 #main3{
 	display: flex;
-	align-items:center;
+	padding: 5px;
+	vertical-align: middle;
+}
+#main1{
+	display: flex;
+	padding: 10px;
+	margin: 20px;
+	align-content: center;
 }
 @media only screen and (max-width: 920px){
 	#main2{
-		display: inline;
+		display: block;
 	}
 	#main3{
-		display: inline;
+		display: block;
 	}
 }
+
 
 	
