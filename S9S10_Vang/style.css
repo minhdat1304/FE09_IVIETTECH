@@ -1,0 +1,152 @@
+body{
+	max-width: 100%;
+	height: auto;
+}
+header{
+	width: 100%;
+	height: 70px;
+	padding: 10px;
+}
+img{
+	vertical-align: middle;
+	border-style: none;
+}
+.navbar-menu{
+	width: 69%;
+	float: right;
+
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.menu{
+	float: left;
+	padding-bottom: 10px;
+	color:#867979;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu li{
+	
+	float: left;
+	padding: 10px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.menu a:hover {
+  background: #F1F1F1;
+
+}
+.banner{
+	width: 100%;
+}
+h1{
+	text-align: center;
+}
+.main-center{
+    width: 90%;
+    padding: 10px;
+    height:800px;
+    margin: auto;
+}
+.main-left{
+	border: 10px;
+	width: 100%;
+
+}
+.section1{
+	float: left;
+	width: 50%;
+	
+	
+}
+.section2 img{
+	float: left;
+	width: 50%;
+	
+}
+.main-right{
+	border: 10px;
+	width: 100%;
+	padding-top:450px;
+
+}
+.section3{
+	width: 50%;
+	float: left;
+	height: auto;
+	padding-right: 10px;
+}
+.section4 img{
+	float: left;
+	width: 50%;
+	padding-right: 20px;
+	height: auto;
+}
+#bottom-element{
+    width: 100%;
+    height: 50%;
+    float: left;
+    padding: 10px;
+    /* background: rgb(79, 147, 236); */
+}
+#bottom-element h3{
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    line-height: 40px;
+}
+
+#bottom-element .cols-el{
+    width: 240px;
+    height: 410px;
+    border: 1px solid silver;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#bottom-element .cols-el .title{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+#bottom-element .cols-el img{
+    width: 100%;
+    height: 140px;
+}
+#bottom-element .cols-el a{
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    border-top: 0.5px solid silver;
+}
+#bottom-element .cols-all{
+    margin: 0 10px;
+}
+#bottom-element .cols-right{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:992px) {
+  body {
+    background-color: lightblue;
+  }
+  img{
+  	display: block;
+  }
+  .main-center{
+  	display: flex-wrap;
+  }
+}
