@@ -282,7 +282,7 @@ body {
     vertical-align: middle;
 }
 
-.img-gg img {
+.img-gg iframe {
     width: 100%;
     float: left;
     padding: 0px 15px;
@@ -292,7 +292,6 @@ body {
     width: 34%;
     flex-wrap: wrap;
     float: left;
-    font-size: 25px;
     margin-left: 5px;
 }
 
@@ -398,7 +397,7 @@ body {
 
     .content-gg,
     .img-gg {
-        width: 100%;
+        width: 95%;
         align-self: center;
         margin: 0px;
         text-align: center;
