@@ -222,6 +222,7 @@ body {
 #img-reservation img {
     width: 98%;
     padding: 1%;
+    opacity: 0.4; 
 }
 
 /* css for footer */
@@ -304,6 +305,36 @@ body {
 #menu .icon {
     display: none;
 }
+
+#img-reservation {
+    position: relative;
+}
+
+.tex-title-img {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tex-title-img-left {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.tex-title-img-right {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
 
 @media screen and (max-width: 900px) {
 
@@ -411,6 +442,7 @@ body {
         width: 50%;
     }
 }
+
 @media screen and (min-width: 1200px) {
     #center-element {
         width: 60%;
