@@ -1,0 +1,418 @@
+* {
+    /*set tổng thể*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Mawaley';
+    border: none;
+    outline: none;
+    /*box-sizing: border-box;*/
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    width: 100%;
+    /*height: 100%;*/
+    background: rgb(0, 0, 0);
+}
+
+#main-body {
+    /*bao tổng quát*/
+    /* padding: 10px; */
+    width: 100%;
+    /*height: 100%;*/
+    /* background: yellow; */
+    margin: 0 auto;
+}
+
+/* css for header */
+#header-content {
+    /*chứa nội dung trong header*/
+    width: 100%;
+    /*height: 400px;*/
+    /* background: red; */
+}
+
+#head-content {
+    width: 100%;
+    /*height: 80px;*/
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+#logo-element {
+    width: 50%;
+    white-space: nowrap;
+    /*height: 80px;*/
+    /* background: green; */
+    /*float: left;*/
+    /*display: inline-block;*/
+
+}
+
+#logo-element img {
+    /*transform: translateY(9%);*/
+    margin: 5px;
+    max-width: 100px;
+    max-height: 100px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    /*float: left;*/
+    /*display: inline-block;*/
+    padding: 5px;
+    vertical-align: middle;
+}
+
+#logo-element h1 {
+    display: inline-block;
+    margin-left: 10px;
+    /*transform: translateY(50%);*/
+    /*width: 300px;*/
+    /*float: left;*/
+    font-style: oblique;
+    font-weight: normal;
+}
+
+#nav-element {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+#nav-element a:hover,
+#menu a:hover {
+    background: darkgrey;
+    color: black;
+}
+
+#menu {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+    /*font-size: px;*/
+
+}
+
+#menu a {
+    padding: 5px 10px;
+    line-height: 80px;
+    border-radius: 5px;
+    color: rgb(90, 89, 89);
+}
+
+.banner-center {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.banner-center img {
+    width: 100%;
+}
+
+/* css for section */
+#main-content {
+    width: 100%;
+    background: black;
+}
+
+
+#center-element {
+    width: 80%;
+    background: white;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.title-element h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    /*margin-bottom: 10px;*/
+    padding: 40px;
+    line-height: 40px;
+}
+
+#top-element {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#bot-element {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+#content .title,
+#top-element .title,
+#bot-element .title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px 0px;
+
+}
+
+.img-content {
+    width: 50%;
+    padding: 25px;
+}
+
+.img-content img {
+    width: 100%;
+}
+
+.content {
+    width: 50%;
+    padding: 25px;
+}
+
+#bottom-element {
+    width: 100%;
+}
+
+.flex-class {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom-element .cols-el {
+    width: 33.33%;
+    border: 1px solid silver;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#bottom-element .cols-el .title {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#bottom-element .cols-el img {
+    width: 100%;
+}
+
+#bottom-element .cols-el a {
+    width: 80%;
+    margin: auto;
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    border-top: 0.5px solid silver;
+    white-space: nowrap;
+}
+
+.cols-all {
+    text-align: center;
+}
+
+/**/
+#img-reservation img {
+    width: 98%;
+    padding: 1%;
+}
+
+/* css for footer */
+#footer-content {
+    position: relative;
+    width: 100%;
+    padding: 10px 0px;
+    background: rgb(58, 57, 57);
+    color: darkgrey;
+    text-align: center;
+}
+
+.row-warp {
+    width: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row {
+    width: 43%;
+    padding: 3%;
+    padding-bottom: 0;
+}
+
+.form-control {
+    margin: 5px 0px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.from-group h3 {
+    margin: 10px 0px;
+}
+
+.row-textArea {
+    width: 92%;
+    padding: 1.5%;
+    padding-top: 0;
+}
+
+.map-gg {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.img-gg {
+    width: 60%;
+    vertical-align: middle;
+}
+
+.img-gg img {
+    width: 100%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.content-gg {
+    width: 34%;
+    flex-wrap: wrap;
+    float: left;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.background-white {
+    background-color: white;
+    width: 100%;
+}
+
+/*ẩn icon menu*/
+#menu .icon {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    /*ẩn hết li  trừ menu*/
+    #menu li:not(:last-child) {
+        display: none;
+    }
+
+    #menu .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 20px;
+
+    }
+
+    #menu .icon {
+        display: block;
+    }
+
+    /*top-element and bot-element xuống dòng*/
+    #top-element,
+    #bot-element {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .img-content {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .content {
+        width: 90%;
+        padding: 0px;
+    }
+
+    /*xuống dòng phần menu*/
+    .flex-class {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #bottom-element .cols-el {
+        width: 80%;
+    }
+
+    /*xuong  dong phần Reservation*/
+    .row {
+        width: 80%;
+    }
+
+    .row-textArea {
+        width: 80%;
+    }
+
+    /*address*/
+
+    .content-gg,
+    .img-gg {
+        width: 100%;
+        align-self: center;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .img-gg img {
+        width: 100%;
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    /*display menu responsive */
+    #nav-element.responsive {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    #nav-element.responsive #menu li {
+        display: block;
+    }
+
+    /*các element trên menu xuống dòng*/
+    #menu {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 412px) {
+    #logo-element {
+        white-space: normal;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #center-element {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #center-element {
+        width: 60%;
+    }
+}
