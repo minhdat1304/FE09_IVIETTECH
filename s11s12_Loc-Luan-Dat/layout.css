@@ -1,0 +1,428 @@
+body {
+	background-color: white;
+}
+.tieude {
+	width: 100%;
+	display: flex;
+	/*background-color: white;*/
+	align-items: baseline;
+	background-color: #eae8e8;
+	/*float: right;*/
+}
+.icon {
+	width: 30%;
+	/*padding-left: 10px;*/
+}
+.icon1 {
+	width: 100%;
+	word-spacing: 5px;
+	font-size: 35px;
+	color: #027502;
+	font-family: fantasy;
+}
+.icon1 img {
+	/*padding-right: 5px;*/
+	width: 70px;
+	height: 70px;
+	vertical-align: middle;
+}
+.menu {
+	width: 65%;
+}
+.tab {
+	width: 5%;
+	display: none;
+	/*float: right;*/
+}
+a {
+	text-decoration: none;
+	word-spacing: 30px;
+	float: right;
+	/*padding-right: 40px;*/
+	font-size: 25px;
+	color: black;
+	font-family: cursive;
+}
+.main {
+	width: 100%;
+	display: block;
+}
+.main1 {
+	padding-top: 10px;
+}
+.main1 img {
+	width: 100%;
+	/*height: 700px;*/
+	z-index: -10;
+}
+.main2 {
+	display: block;
+	width: 100%;
+}
+.left {
+	width: 15%;
+	float: left;
+}
+.fulldown {
+	width: 70%;
+	float: left;
+	/*padding-top: 20px;*/
+}
+.right {
+	width: 15%;
+	float: right;
+}
+.fuldown1 {
+	width: 100%;
+}
+.text1 {
+	width: 100%;
+	/*height: 50px;*/
+	/*background-color: red;*/
+	text-align: center;
+	font-size: 30px;
+	/*padding-top: 5px;*/
+	color: #d10a6a;
+	font-family: cursive;
+	/*margin-bottom: 5px;*/
+	/*background-color: #ad9f9f;*/
+}
+.text2 {
+	width: 100%;
+	height: 300px;
+	/*background-color: blue;*/
+	background-color: #eae8e8;
+}
+.text3 {
+	width: 100%;
+	height: 300px;
+	/*background-color: black;*/
+	padding-top: 40px;
+	background-color: #eae8e8;
+}
+.twotext {
+	width: 48%;
+	height: 50%;
+	float: left;
+}
+.twotext h3 {
+	color: #1313d6;
+}
+.twotext p {
+	color: #ff7f00;
+}
+.img1 {
+	width: 48%;
+	height: 50%;
+	float: right;
+}
+.haitext {
+	width: 48%;
+	height: 50%;
+	float: right;
+}
+.haitext h3 {
+	color: #1313d6;
+}
+.haitext p {
+	color: #ff7f00;
+}
+.img2 {
+	width: 48%;
+	height: 50%;
+	float: left;
+}
+.fuldown2 {
+	width: 100%;
+}
+.textmenu {
+	width: 100%;
+	/*height: 50px;*/
+	/*background-color: red;*/
+	text-align: center;
+	font-size: 30px;
+	/*padding-top: 20px;*/
+	color: #d10a6a;
+	font-family: cursive;
+	/*background-color: #ad9f9f;*/
+}
+.textfinish {
+	padding-top: 5px;
+}
+.text4 {
+	width: 100%;
+	/*height: 600px;*/
+	padding-top: 10px;
+	/*background-color: blue;*/
+	background-color: #eae8e8;
+}
+.meat1 {
+	width: 33%;
+	height: 100%;
+	float: left;
+	/*background-color: red;*/
+	background-color: #eae8e8;
+}
+.meat2 {
+	width: 34%;
+	height: 100%;
+	float: left;
+	/*background-color: yellow;*/
+	background-color: #eae8e8;
+}
+.meat3 {
+	width: 33%;
+	height: 100%;
+	float: right;
+	/*background-color: pink;*/
+	background-color: #eae8e8;
+}
+.imgtop1 {
+	width: 90%;
+	height: 40%;
+	float: left;
+	/*margin: auto;*/
+	/*padding-left: 5%;
+	padding-right: 5%;*/
+}
+.imgtop1 img {
+	width: 100%;
+	height: 230px;
+}
+.textnaka1 {
+	text-align: center;
+	color: #1313d6;
+}
+.textbot1 {
+	float: left;
+}
+.imgtop2 {
+	width: 90%;
+	height: 40%;
+	float: left;
+	/*margin: auto;*/
+}
+.imgtop2 img {
+	width: 100%;
+	height: 230px;
+}
+.textnaka2 {
+	text-align: center;
+	color: #1313d6;
+}
+.textbot2 {
+	float: left;
+}
+.imgtop3 {
+	width: 90%;
+	height: 40%;
+	float: left;
+	/*margin: auto;*/
+}
+.imgtop3 img {
+	width: 100%;
+	height: 230px;
+}
+.textnaka3 {
+	text-align: center;
+	color: #1313d6;
+}
+.textbot3 {
+	float: left;
+}
+.textbot1 p {
+	color: #ff7f00;
+}
+.textbot2 p {
+	color: #ff7f00;
+}
+.textbot3 p {
+	color: #ff7f00;
+}
+.textnaka1 h3 {
+	font-family: Impact;
+}
+.textnaka2 h3 {
+	font-family: Impact;
+}
+.textnaka3 h3 {
+	font-family: Impact;
+}
+.reservation {
+	width: 100%;
+	/*padding-top: 10px;*/
+	/*height: 50px;*/
+	text-align: center;
+    font-size: 30px;
+   /* padding-top: 20px;*/
+    color: #d10a6a;
+    font-family: cursive;
+	text-align: center;
+	/*background-color: #ad9f9f;*/
+}
+.imgmain3 {
+	padding-top: 10px;
+}
+.imgmain3 img {
+	width: 100%;
+	/*height: 500px;*/
+	/*padding-top: 5px;*/
+}
+.twomain3 {
+	width: 100%;
+	/*height: 350px;*/
+	/*background-color: blue;	*/
+}
+.reserve {
+	width: 50%;
+	/*height: 100%;*/
+	float: left;
+	background-color: #eae8e8;
+}
+.details {
+	width: 50%;
+	/*height: 100%;*/
+	float: right;
+	background-color: #eae8e8;
+}
+.nameleft {
+	width: 100%;
+	text-align: left;
+}
+.nameleft h3 {
+	color: blue;
+	font-family: cursive;
+}
+.nameright h3 {
+	color: blue;
+	font-family: cursive;
+}
+.input1 {
+	width: 90%;
+	font-family: cursive;
+}
+.input2 {
+	width: 90%;
+	font-family: cursive;
+}
+.input3 {
+	width: 90%;
+	font-family: cursive;
+}
+.input4{
+	width: 90%;
+	font-family: cursive;
+}
+.input5{
+	width: 90%;
+	font-family: cursive;
+}
+.input6{
+	width: 90%;
+	font-family: cursive;
+}
+.reserve p {
+	font-family: cursive;
+}
+.details p {
+	font-family: cursive;
+}
+.further {
+	width: 100%;
+	float: left;
+	background-color: #eae8e8;
+}
+.furtheronly p {
+	font-family: cursive;
+	width: 100%;
+	/*background-color: #eae8e8;*/
+}
+.input7 {
+	width: 95%;
+	font-family: cursive;
+	/*background-color: #eae8e8;*/
+}
+.button1 {
+	/*float: left;*/
+	font-family: cursive;
+	padding-top: 15px;
+}
+.button1 button {
+	font-family: cursive;
+}
+.locationour {
+	text-align: center;
+	font-size: 30px;
+	font-family: cursive;
+	color: #d10a6a;
+}
+.imgandadd {
+	width: 100%;
+	/*height: 250px;*/
+}
+.imgfn {
+	width: 70%;
+	float: left;
+}
+.add {
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.imgfn img {
+	width: 100%;
+	height: 100%;
+}
+.add h3 {
+	font-family: cursive;
+	color: #e8770d;
+}
+.add p {
+	font-family: cursive;
+	color: #08d66b;
+}
+.fulldown5 {
+	width: 100%;
+	float: left;
+	background-color: #eae8e8;
+}
+.follow {
+	display: inline;
+	width: 33.33%;
+	float: left;
+
+}
+.copy {
+	width: 33.33%;
+	float: left;
+}
+.pow {
+	width: 33.33%;
+	float: left;
+}
+.pow h4 {
+	text-align: right;
+}
+.copy h4 {
+	text-align: center;
+}
+h4 {
+	color: blue;
+}
+@media only screen and (max-width: 1115px) {
+	[class*="menu"] {
+		display: none;
+	}
+	[class*="tab"] {
+		display: block;
+		margin-left: auto;
+	}
+}
+@media only screen and (max-width: 900px) {
+	[class*="twotext"] {
+		
+	}
+	[class*="haitext"] {
+		
+	}
+}
