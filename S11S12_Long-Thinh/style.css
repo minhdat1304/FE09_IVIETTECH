@@ -242,10 +242,11 @@ section h2{
 	}
 	#check{
 	position: absolute;
-	height: 100%;
 	visibility: visible;
 	right: 5%;
 	top: 25%;
+	border: 1px solid #bbb;
+	padding: 5px 10px;
 	}
 	#box:checked ~ #navbar ul{
 		visibility: visible;
@@ -295,7 +296,7 @@ section h2{
 		padding-top: 70px;
 	}
 	section{
-		width: 100%;
+		width: 96%;
 	}
 	/* #reser{
 		width: 100%;
