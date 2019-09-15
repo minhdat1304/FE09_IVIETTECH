@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	max-width: 1920px;
+}
+body{
+	font-family: 'Merienda';
+	font-size: 16px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: rgba(0,0,0,.5);
+}
+a:hover {
+	background-color: rgba(0,0,0,.7);
+}
+.imglogo{
+	vertical-align: middle;
+	margin: 10px;
+}
+.header{
+	width: 100%;
+	display: flex;
+	background-color:#f8f9fa;
+	position: fixed;
+	height: 80px;
+	font-size: 20px;
+}
+.menu{
+	display: flex;
+	list-style-type: none;
+    flex-direction: row;
+    margin-left: 25em;
+    padding: 20px 16px;
+}
+.nav_item{
+	margin-right: 25px;
+}
+.empty{
+	margin-top: 100px;
+}
+.textcenter{
+	text-align: center;
+	font-size: 30px;
+	color: inherit;
+    font-weight: 500;
+}
+.container {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content1{
+	display: flex;
+}
+.content2{
+	display: flex;
+}
+.content3{
+	display: flex; 
+}
+.content3_left{
+	margin:20px;
+	border: 2px solid silver;
+	border-radius: 5px;
+}
+.content3_center{
+	margin:20px;
+	border: 2px solid silver;
+	border-radius: 5px;
+}
+.content3_right{
+	margin:20px;
+	border: 2px solid silver;
+	border-radius: 5px;
+}
+.menuitem{
+	list-style-type: none;
+	padding:7px;
+    border-top: 1px solid silver;
+}
+h5{
+    font-weight: bold;
+    line-height: 50px;
+}
+.reserve{
+	opacity: 0.5;
+}
+.content4{
+	display: flex;
+	background-color: #f8f9fa;
+    flex-wrap: wrap;
+}
+.content41{
+	flex-grow: 1;
+}
+.content5{
+	display: flex;
+}
+@media only screen and (min-width: 1024px){
+	}
+    .header{
+    	font-size: 14px;
+    }
+    .menu{
+    	margin-left: 200px;
+    }
+	.nav_item{
+		margin-left: 20px;
+}
+@media only screen and (min-width: 850px) and (max-width: 1024px){
+    .ilogo{
+    	width: 20px
+    }
+    .elogo{
+    	width: 20px
+    }
+    .header{
+    	font-size: 14px;
+    }
+    .menu{
+    	margin-left: 5px;
+    }
+	.nav_item{
+		margin-left: 5px;
+	}
+	.textnav{
+		margin-left: 15px;
+	}
+	.locajpg{
+		width: 400px;
+		height: 350px;
+	}
+	.cuijpg{
+		width: 400px;
+		height: 350px;
+	}
+	.meatlogo{
+		width: 200px;
+	}
+	.fishlogo{
+		width: 200px;
+	}
+	.raulogo{
+		width: 200px;
+	}
+	.reserve{
+		width: 700px;
+	}
+	.maplogo{
+		width: 600px;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 850px){
+	.header{
+		font-size: 16px;
+		flex-direction: column;
+		height: 120px;
+	}
+	.menu{
+    	margin-left: 5px;
+    }
+	.nav_item{
+		margin-left: 5px;
+	}	
+    .content1{
+		flex-direction: column;
+	}
+	.content2{
+		flex-direction: column;
+	}
+	.content3{
+		flex-direction: column;
+	}
+	.reserve{
+		width: 500px;
+	}
+	.maplogo{
+		width: 400px;
+	}
+	.content5{
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 500px){
+	.header{
+		font-size: 20px;
+		flex-direction: column;
+		height: 120px;
+	}
+	.menu{
+    	margin-left: 5px;
+    }
+	.nav_item{
+		margin-left: 5px;
+	}	
+    .content1{
+		flex-direction: column;
+	}
+	.content2{
+		flex-direction: column;
+	}
+	.content3{
+		flex-direction: column;
+	}
+	.locajpg{
+		width: 250px;
+	}
+	.cuijpg{
+		width: 250px;
+	}
+	.reserve{
+		width: 300px;
+	}
+	.maplogo{
+		width: 400px;
+	}
+	.content5{
+		flex-direction: column;
+	}
+}
