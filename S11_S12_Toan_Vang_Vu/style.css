@@ -327,8 +327,13 @@ textarea{
    min-height: 50px;
    width: 100%;
    resize: vertical;
+   border-radius: 5px;
    font-size: 1rem;
     font-family: 'Merienda',serif;
+}
+textarea:focus{
+    outline: none;
+    border: 2px solid rgb(150, 150, 230);
 }
 .btn{
     width: 35%;
