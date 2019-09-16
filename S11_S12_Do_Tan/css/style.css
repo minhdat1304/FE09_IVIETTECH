@@ -1,0 +1,296 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+}
+header {
+    display: flex;
+    width: 100%;
+    background: #f1e121;
+}
+.logo-header {
+    width: 30%;
+    margin: 5px;
+}
+.menu-header {
+    white-space: nowrap;
+    width: 70%;
+}
+.logo-header a {
+    text-decoration: none;
+}
+
+.logo-header img {
+    vertical-align: middle;
+}
+.menu-header ul {
+    /* overflow: hidden; */
+    margin: 10px;
+    /* align-items: space-around; */
+    /* align-content: flex-end; */
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+.menu-header a {
+    text-decoration: none;
+}
+
+.menu-header li {
+    padding: 5px;
+}
+li.img-menu {
+    /* align-items: flex-end; */
+    padding: 1px;
+    width: 20px;
+    margin-top: 3px;
+}
+.img-section1 {
+    position: relative;
+    z-index: 1;
+}
+
+.text-section1 {
+    left: 25%;
+    position: absolute;
+    z-index: 2;
+    top: 43%;
+    color: white;
+    text-align: center;
+    right: 25%;
+}
+.section2 {
+    width: 90%;
+    margin: auto;
+}
+.content-section2 {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+.content1-section2 {
+    width: 50%;
+}
+
+.content2-section2 {
+    width: 50%;
+}
+.content-section2 {
+    background: antiquewhite;
+}
+.content1-section2 div,.content2-section2 div {
+    padding: 10px;
+}
+.section3 {
+    width: 90%;
+    margin: auto;
+    /* display: flex; */
+}
+.content-section3 {
+    background: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-section3 {
+    width: 33.33%;
+}
+
+.center-section3 {
+    width: 33.33%;
+}
+
+.right-section3 {
+    width: 33.33%;
+}
+nav li {
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+}
+.menu1-section3,.menu2-section3,.menu3-section3 {
+    border-radius: 3px;
+    background: white;
+    border: 1px solid;
+}
+
+.left-section3,.center-section3,.right-section3 {
+    padding: 5px;
+}
+.section4 {
+    /* margin-top: 10px; */
+    width: 90%;
+    margin: auto;
+}
+.section5 {
+    margin: auto;
+    width: 90%;
+}
+.content-section5 {
+    background: beige;
+    flex-wrap: wrap;
+    display: flex;
+}
+.left-section5 {
+    width: 50%;
+}
+
+.right-section5 {
+    width: 50%;
+}
+.center-section5 {
+    padding: 5px;
+    width: 100%;
+}
+.left-section5,.right-section5 {
+    padding: 5px;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    height: 27px;
+    width: 100%;
+    border: 1px solid;
+}
+textarea {
+    padding: 5px;
+    border-radius: 5px;
+    /* height: 27px; */
+    width: 100%;
+    border: 1px solid;
+    width: 100%;
+}
+.section6 {
+    width: 90%;
+    margin: auto;
+}
+.content-section6 {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-section6 {
+    width: 70%;
+}
+
+.right-section6 {
+    padding: 5px;
+    width: 30%;
+}
+footer {
+    background: antiquewhite;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.left-footer {
+    width: 33.33%;
+}
+.center-footer {
+    width: 33.33%;
+}
+
+.right-footer {
+    width: 33.33%;
+}
+.left-footer span {
+    display: inline-flex;
+    /* display: inline; */
+}
+.img-section4 {
+    /* margin-top: 10px; */
+    position: relative;
+}
+
+.text-img {
+    left: 10%;
+    position: absolute;
+    color: #f7f7f7;
+    top: 22%;
+    right: 10%;
+}
+.text-main {
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.text-left {
+    padding: 5px;
+    width: 50%;
+}
+
+.text-right {
+    padding: 5px;
+    width: 50%;}
+
+.text-center {
+    width: 100%;
+    text-align: center;
+}
+.text1-section2 {
+    line-height: 21px;
+}
+.text-section3 h2 {
+    padding: 10px 0;
+    text-align: center;
+}
+.text-section4 {
+    text-align: center;
+    padding: 33px 0;
+}
+button {
+    color: white;
+    border-radius: 4px;
+    background: #59bf37;
+    border: none;
+    width: 220px;
+    padding: 7px;
+}
+.text-section6 {
+    text-align: center;
+    padding: 40px 0;
+}
+footer div {
+    padding: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: #197ee8;
+}
+.text-section2 {
+    text-align: center;
+    padding: 35px 0;
+}
+
+/* input#menu-toggle {
+    display: none;
+} */
+
+
+/* input#checkbox-toggle {
+    display: none;
+} */
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ ul#menu{
+    display: block;
+}
+.img2-section2 {
+    width: 100%;
+    order: 2;
+}
+
+.text1-section2 {
+    width: 100%;
+    order: 1;
+}
