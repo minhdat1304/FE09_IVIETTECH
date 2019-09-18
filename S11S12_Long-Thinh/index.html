@@ -23,7 +23,7 @@
 					<li><a href="#menu">Menu</a></li>
 					<li><a href="#reservation">Reservation</a></li>
 					<li><a href="#location">Our Location</a></li>
-					<li><a href="#"><img src="img/italy.ico" width="30"><img src="img/english.ico" width="30"></a></li>
+					<li><a href="#"><img src="img/italy.ico" width="30">&nbsp;<img src="img/english.ico" width="30"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -111,27 +111,30 @@
 				</div>
 			</div>
 		</div>
-		<div class="infor">
-			<div id="left-infor">
-				<h1>Reserve</h1>
-				<p><label for="date">Date</label></p><input type="date" name="date">
-				<p><label for="timetable">Timetables</label></p><input type="time" name="timetable">
-				<p><label for="guest">Number of Guests</label></p><input type="number" name="guest" placeholder="Number of Guests">
+		<form name="form_reserve" action="" method="post">
+			<div class="infor">
+				<div id="left-infor">
+					<h1>Reserve</h1>
+					<p><label for="date">Date</label></p><input type="date" name="date" autocomplete="off>"
+					<p><label for="timetable">Timetables</label></p><input type="time" name="timetable" autocomplete="off">
+					<p><label for="guest">Number of Guests</label></p><input type="text" name="guest" placeholder="Number of Guests" pattern="[0-9]+" autocomplete="off">
+
+				</div>
+				<div id="right-infor">
+					<h1>Details</h1>
+					<p><label for="name">Name</label></p><input type="text" name="name" placeholder="Name" maxlength="250" pattern="[a-zA-Z0-9]+" autocomplete="off">
+					<p><label for="email">Email</label></p><input type="email" name="email" placeholder="Email" autocomplete="off">
+					<p><label for="phone">Phone</label></p><input type="tel" name="phone" placeholder="Phone" pattern="[0-9]+" maxlength="15" autocomplete="off">
+				</div>
+				<div id="request">
+					<p><label for="request">Further requests</label></p><textarea name="" id="" rows="4" placeholder="Further requests" maxlength="4000" autocomplete="off"></textarea>
+				</div>
+				<div>
+					<input type="submit" value="reserve" id="submit">
+				</div>
 
 			</div>
-			<div id="right-infor">
-				<h1>Details</h1>
-				<p><label for="name">Name</label></p><input type="text" name="name" placeholder="Name">
-				<p><label for="email">Email</label></p><input type="email" name="email" placeholder="Email">
-				<p><label for="phone">Phone</label></p><input type="tel" name="phone" placeholder="Phone">
-			</div>
-			<div id="request">
-				<p><label for="request">Further requests</label></p><textarea name="" id="" rows="4" placeholder="Further requests"></textarea>
-			</div>
-			<div>
-				<input type="submit" value="Reserve" id="submit">
-			</div>
-		</div>
+		</form>
 	</section>
 	<section id="location">
 		<h2>~ Our Location ~</h2>
