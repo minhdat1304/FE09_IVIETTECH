@@ -38,9 +38,6 @@ section h2{
 	margin: auto 10px;
 	position: relative;
 }
-.clear{
-	clear: left;
-}
 #box, #check{
 	position: absolute;
 	visibility: hidden;
@@ -60,14 +57,11 @@ section h2{
 	text-decoration: none;
 	color: #555;
 }
-/* #navbar ul li a:hover{
-	color: #0f9;
-} */
-#navbar a:active{
+/* #navbar a:active{
 	background-color: #222;
 	color: #ddd;
-}
-/* Content */
+} */
+/* Restaurant */
 #introduce{
 	width: 100%;
 	position: relative;
@@ -104,6 +98,8 @@ section h2{
 	width: 30%;
 	margin: 20px auto;
 	border: 1px solid #bbb;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 .menu div img{
 	width: 100%;
@@ -161,8 +157,10 @@ section h2{
 	width: 47%;
 	margin-left: 2%;
 }
-
-.infor div input, #request{
+#request{
+	width: 96%;
+}
+.infor div input, .infor div textarea{
 	width: 100%;
 	border-radius: 5px;
 	margin-bottom: 10px;
@@ -171,15 +169,11 @@ section h2{
 	line-height: 150%;
     font-family: 'Times New Roman';
 }
-input[placeholder="Name"]:invalid{
-	border: green;
-}
-
 #submit{
 	border-radius: 5px;
 	color: #fff;
 	background-color: #667;
-	width: 50%;
+	width: 70%;
 	line-height: 40px;
 	font-size: 18px;
 	border: 1px solid #bbb;
@@ -244,11 +238,10 @@ input[placeholder="Name"]:invalid{
 	}
 	#check{
 	position: absolute;
+	height: 100%;
 	visibility: visible;
 	right: 5%;
 	top: 25%;
-	border: 1px solid #bbb;
-	padding: 5px 10px;
 	}
 	#box:checked ~ #navbar ul{
 		visibility: visible;
@@ -299,6 +292,9 @@ input[placeholder="Name"]:invalid{
 	}
 	section{
 		width: 96%;
+	}
+	#submit{
+		width: 100%;
 	}
 	/* #reser{
 		width: 100%;
