@@ -140,7 +140,7 @@
                         <br>
                         <div class="content4">
                             <div class="content41">
-                                <div class="row1">
+                                <form class="row1">
                                     <div class="reservation-table">
                                         <div class="col span-1-of-2">
                                             <!-- phần bên trái input -->
@@ -155,7 +155,7 @@
                                             </div>
                                             <div class="from-group">
                                                 <label>Number of Guests</label>
-                                                <input class="form-control" type="number" placeholder="Number of Guests">
+                                                <input class="form-control" type="number" placeholder="Number of Guests" pattern="[0-9]">
                                             </div>
                                         </div>
                                         <div class="col span-1-of-2">
@@ -163,26 +163,35 @@
                                             <div class="from-group">
                                                 <h3>Details</h3>
                                                 <label>Name</label>
-                                                <input class="form-control" type="text" placeholder="Name">
+
+                                                
+
+                                                <input class="form-control" type="text" placeholder="Name" maxlength="250" pattern="[a-z A-Z]{1,250}" title="khong co ki tu dac biet" required>
+
                                             </div>
                                             <div class="from-group">
                                                 <label>Email</label>
-                                                <input class="form-control" type="email" placeholder="Email">
+                                                <input class="form-control" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                                             </div>
                                             <div class="from-group">
                                                 <label>phone of Guests</label>
-                                                <input class="form-control" type="tel" placeholder="Phone">
+
+                                               
+
+                                                <input class="form-control" type="tel" placeholder="Phone" pattern="[0-9]{1,15}" title="nhap tu 0-9 va nhieu nhat 15 ki tu">
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row2">
                                         <div class="from-group">
                                             <label>Further requests</label>
-                                            <textarea class="form-control" rows="4" placeholder="Further requests"></textarea>
+                                            <input class="form-control" rows="4" placeholder="Further requests" pattern="[a-z A-Z]{1,4000}"></input>
+
                                         </div>
                                         <button type="submit">Reserve</button>
                                     </div>
-                                </div>
+                                </form>
                                 <div class="empty">
                                     <div class="textcenter">
                                         <p>~ Our Location ~</p>
