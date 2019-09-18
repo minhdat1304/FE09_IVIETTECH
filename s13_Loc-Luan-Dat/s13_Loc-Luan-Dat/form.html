@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FORM</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+	<main>
+		<div class="container"> <!-- div lớn chứa 2 div nhỏ -->
+			<form action="form"> 
+			<div class="left">
+				<div class="left1"> <h1>Reserve</h1></div>
+				<div class="left2"> <h3>Date</h3>
+					<input type="date" name="date">
+  					<!-- <input type="submit"> -->
+					<!-- <input type="" name=""> -->
+				</div>
+				<div class="left3"> <h3>Timetables</h3>
+					<input type="time" name="usr_time">
+					<!-- <input type="" name=""> -->
+				</div>
+				<div class="left4"> <h3>Number of Guests</h3>
+					<input type="number" name="nhap so" min="">
+				</div>
+			</div>   <!-- đây là cái div bên trái chứa date, timetables, number... -->
+
+			<div class="right">
+				<div class="right1"> <h1>Details</h1></div>
+				<div class="right2"> <h3>Name</h3>
+					<input 
+						type="type" 
+						name="username" 
+						placeholder="Username" 
+						pattern="[a-z]{1,250}"
+						>
+				</div>
+				<div class="right3"> <h3>Email</h3>
+					<input type="email" name="email" placeholder="Email">
+				</div>
+				<div class="right4"> <h3>Phone</h3>
+					<input type="tel" name="phone" placeholder="Phone" pattern="[0-9]{1-15}">
+				</div>	<!-- đây là div chứa 3 khung ngang bên phải -->
+			</div>
+			
+			<div class="further"> <h3>Further requests</h3>
+					 <textarea maxlength="4000" name="mes" placeholder=" Message " style="width: 100%; height: 70px; border-radius: 10px;border-style:solid;"></textarea>
+					</div>
+  			<div class="submit">
+  				<input type="submit" name="submit" id="submit">
+  			</div>
+				</form>
+		</div>
+		
+		
+
+
+	</main>
+</body>
+</html>
