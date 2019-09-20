@@ -22,7 +22,7 @@ h1{
     width: 90%;
     margin: 0px auto;
     min-width: 250px;
-    background-color: white;
+    background-color: #f9f9f9;
     color: #6e6e6e;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ input {
     color: #009654;
     font-size: 32px;
 }
-input:invalid{
+input:invalid, textarea:invalid{
     border-bottom: 1px solid #ff6e6e;
 }
 .submitbt:hover{
