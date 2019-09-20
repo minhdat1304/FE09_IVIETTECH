@@ -159,24 +159,24 @@
                     <div class="resever">                        
                         <h3>Resever</h3>                        
                             <p class="form-title"> Date</p>
-                            <input type="date" class="form-input" >
+                            <input type="date" class="form-input" required>
 
                             <p class="form-title">Timetable</p>
-                            <input type="time" class="form-input">
+                            <input type="time" class="form-input" required>
 
                             <p class="form-title">Number of Guests</p>
-                            <input type="Number" class="form-input" placeholder="Number of Guests">   
+                            <input type="Number" class="form-input" placeholder="Number of Guests" oninput="setCustomValidity('')" required>   
                     </div>
                     <div class="detail">
                         <h3>Detail</h3>                      
                             <p class="form-title">Name</p>
-                            <input type="text" class="form-input" placeholder="Name" pattern="[a-z A-Z]{1,250}" oninvalid="this.setCustomValidity('Name không chứa ký tự đặc biệt bạn nhé')">
+                            <input type="text" class="form-input" placeholder="Name" pattern="[a-z A-Z]{1,250}" oninvalid="this.setCustomValidity('Name không chứa ký tự đặc biệt bạn nhé')" oninput="setCustomValidity('')" required>
             
                             <p class="form-title">Email</p>
-                            <input type="email" class="form-input" placeholder="Email" oninvalid="this.setCustomValidity('Email sai rồi bạn nhé. Vd: Mail@example.com')">
+                            <input type="email" class="form-input" placeholder="Email" oninvalid="this.setCustomValidity('Email sai rồi bạn nhé. Vd: Mail@example.com')" oninput="setCustomValidity('')" required>
             
                             <p class="form-title">Phone</p>
-                            <input type="text" class="form-input" placeholder="Phone" pattern="[0-9]{1,15}" >       
+                            <input type="text" class="form-input" placeholder="Phone" pattern="[0-9]{1,15}" oninvalid="this.setCustomValidity('Phone chỉ chứa số bạn nhé')" oninput="setCustomValidity('')" required>       
                     </div>
                     <div class="futher-requests">                       
                             <p class="form-title">Further Requests</p>
