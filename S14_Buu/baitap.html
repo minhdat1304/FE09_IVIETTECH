@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="baitap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <section>
+    	<div class="container-form">
+    		<div class="image container">
+    			<div class="contact">
+    				<i class="fas fa-map-marker-alt icon"></i>
+    				<div class="small">
+    					<h4>Address</h4>
+    					<p class="color-1">Mada center 8th floor, 379 Hudson St, New York, NY 10018 US </p>
+    				</div>
+    			</div>
+    			<div class="contact">
+    				<i class="fas fa-phone-volume icon"></i>
+    				<div class="small">
+    					<h4>Lets Talk</h4>
+    					<p class="color-2"> +1800 123456789 </p>
+    				</div>
+    			</div>
+    			<div class="contact">
+    				<i class="far fa-envelope icon"></i>
+    				<div class="small">
+    					<h4>General <!-- Support --></h4>
+    				<p class="color-2"> Contact@example.com </p>
+    				</div>
+    			</div>
+    		</div>
+    			<form method="post" action="" class="login">
+    			    <h3 class="title">Send Us A Message</h3>
+			    	<label class="input-form" for="first-name">tell us your name *</label>
+			    	<div class="tow-input">
+			    	<div class="wrap-input input1">
+				    	<input type="text" name="first-name" placeholder="First Name" pattern="[A-Za-z]{1,}" required>
+			    	</div>
+			    	<div class="wrap-input input2">
+			    	<input type="text" name="last-name" placeholder="Last Name"  pattern="[A-Za-z]{1,}" required>
+    			    </div>
+    			    </div>
+    			    <label class="input-form" for="email">enter your email *</label>
+    			    <div class="wrap-input">
+    			    	<input type="email" placeholder="Eg. example@email.com" required>
+    			    </div>
+    			    
+    			    <label class="input-form" for="phone">enter phone number</label>
+    			    <div class="wrap-input">
+    			    	<input type="tel" placeholder="Eg. +1800 00000000" pattern="[0-9]{3,}" required>
+    			    </div>
+    			    <label class="input-form" for="message">Message *</label>
+    			    <div class="wrap-input">
+    			    	<textarea name="message" placeholder="Write us a message" required> </textarea>
+    			    </div>
+    			     <div class="button">
+    			    	<button type="submit" name="submit"> send message </button>
+    			    </div>
+    			</form>
+    	</div>
+    </section>
+</body>
+</html>
