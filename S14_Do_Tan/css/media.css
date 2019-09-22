@@ -1,0 +1,53 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .right-information{
+      width: 100%;   
+  }
+  .left-information {
+   order: 2;
+   width: 100%;
+   background-image: url('https://fptshop.com.vn/uploads/images/tin-tuc/85755/Originals/31307-52211-2019_13_MacBook_Pro_Review-l.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+.text-information { 
+  position: static;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .text-information { 
+    position: absolute;
+
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .text-information { 
+    position: absolute;
+  } 
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .text-information { 
+    position: absolute;
+
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .text-information { 
+
+    position: absolute;
+
+  }
+}
