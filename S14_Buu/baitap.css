@@ -154,7 +154,20 @@ textarea {
 }
 }
 @media only screen and (max-width: 576px) {
-	.contact {
+.tow-input {
+	display: block;
+}
+.input1 {
+	width: 100%;
+}
+.input2 {
+	width: 100%;
+}
+.input2 input{
+    border-top: none;
+    border-left: 1px solid #FFDBD4;
+}
+.contact {
 	display: flex;
 	margin: 30px 30px;
 	padding: 10px;
