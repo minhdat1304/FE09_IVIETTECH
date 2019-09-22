@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    background: #bfbfce;
+}
+.information {
+    height: 600px;
+    box-shadow: 5px 5px 14px 5px rgba(0,0,0,0.4);
+    /* box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.4); */
+    font-family: Georgia, serif;
+    font-size: 11px;
+    letter-spacing: -0.6px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    /* padding-top: 2%; */
+    display: flex;
+    width: 90%;
+    /* background: aqua; */
+    margin: 2% auto;
+    flex-wrap: wrap;
+    /* padding-bottom: 2%; */
+}
+.left-information {
+    font-size: 17px;
+    background-image: url('https://fptshop.com.vn/uploads/images/tin-tuc/85755/Originals/31307-52211-2019_13_MacBook_Pro_Review-l.jpg');
+    /* background-image: url('/img/catering.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 10px; */
+    position: relative;
+    /* background: blue; */
+    width: 50%;
+    /* height:500px; */
+}
+.left-information div {
+    padding: 20px;
+}
+
+.right-information {
+    padding-top: 40px;
+    width: 50%;
+    background: white;
+    padding-bottom: 40px;
+}
+.text-information {
+    text-shadow: 1px 0px 0 #000000;
+    top: 28%;
+    /* line-height: 28px; */
+    /* padding: 45px; */
+    position: absolute;
+    /* bottom: 19%; */
+    color: #ffee00;
+    left: 2%;
+}
+span.icon-text {
+    /* vertical-align: middle; */
+    display: flex;
+}
+
+.text-information p {
+    padding-left: 30px;
+}
+h4 {
+    padding-left: 16px;
+}
+form {
+    padding: 23px;
+}
+
+h1 {
+    padding: 0px 10px;
+    text-align: center;
+}
+.form-top {
+    border: 1px solid  #eceff3;
+}
+
+label {
+    padding: 10px;
+    /* text-align: center; */
+    border-bottom: 1px solid  #eceff3;
+    /* width: 100%; */
+    width: 100%;
+}
+
+input[type="text"] {
+    border: 0px;
+    width: 50%;
+}
+
+.form-top {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form-center1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    /* 2px solid currentColor */
+    border: 1px solid  #eceff3;
+}
+
+input[type="email"],input.input-center2,textarea {
+    border: 0px;
+    width: 100%;
+}
+.form-center2,.form-botton{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: 1px solid  #eceff3;
+}
+input[type="submit"] {
+    color: white;
+    border: none;
+    padding: 11px 57px;
+    background: #50e435;
+    border-radius: 20px;
+}
+.btn {
+    text-align: center;
+}
+form input {
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+}
+input.input1 {
+    border-right: 1px solid  #eceff3;
+}
+.left-information i {
+    color: #ffffff;
+}
+
+.left-information h4 {
+    color: #ff4800;
+}
