@@ -1,0 +1,161 @@
+main {
+	width: 100%;
+	height: 615px;
+}
+.container {
+	width: 70%;
+	height: 700px;
+	margin: auto;
+	
+}
+.container-left {
+	width: 45%;
+	height: 100%;
+	float: left;
+	background-image: url(./img5.jpg);
+}
+.container-right {
+	width: 55%;
+	height: 100%;
+	float: left;
+	background-color: pink;
+}
+.notext1 {
+	width: 100%;
+	height: 20%;
+}
+.text {
+	width: 100%;
+	height: 60%;
+}
+.notext {
+	width: 100%;
+	height: 20%;
+}
+.headtext {
+	width: 80%;
+	height: 40%;
+	margin: auto;
+}
+.maintext {
+	width: 80%;
+	height: 30%;
+	margin: auto;
+}
+.bottomtext {
+	width: 80%;
+	height: 30%;
+	margin: auto;
+}
+.iconandtext {
+	width: 80%;
+	height: 100%;
+	/*background-color: white;*/
+	margin: auto;
+}
+.icon {
+	width: 15%;
+	height: 50%;
+	float: left;
+	padding-top: 15px;
+}
+.text {
+	width: 85%;
+	height: 50%;
+	float: left;
+}
+.iconandtext2 {
+	width: 80%;
+	height: 100%;
+	/*background-color: white;*/
+	margin: auto;
+}
+.icon2 {
+	width: 15%;
+	height: 50%;
+	float: left;
+	padding-top: 15px;
+}
+.text2 {
+	width: 85%;
+	height: 50%;
+	float: left;
+}
+.iconandtext3 {
+	width: 80%;
+	height: 100%;
+	/*background-color: white;*/
+	margin: auto;
+}
+.icon3 {
+	width: 15%;
+	height: 50%;
+	float: left;
+	padding-top: 10px;
+}
+.text3 {
+	width: 85%;
+	height: 50%;
+	float: left;
+}
+i {
+	font-size: 25px;
+	color: white;
+}
+h3 {
+	font-family: sans-serif;
+	color: white;
+}
+p {
+	color: green;
+}
+.mainright {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+#title {
+	width: 100%;
+	text-align: center;
+	height: 10%;
+}
+.input-form{
+	margin: 2px;
+	border: 1px solid blue;
+	font-size: 15px;
+}
+.input-o{
+	display: flex;
+	width: 100%;	
+}
+.input-o input {
+	 width: 100%;
+	 padding: 17px;
+    font-size: 18px;
+    border: 1px solid blue;
+   
+}
+.first-name{
+	width: 50%;
+}
+.last-name{
+	width: 50%;
+}
+.email{
+	margin-top: 20px
+}
+textarea{
+	width: 100%;
+	height: 100px;
+}
+.button button {
+	background-color: lime;
+	font-size: 15px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 30px;
+	border: 1px solid  red;
+	border-radius: 10px;
+	    margin: 10px;
+    margin-left: 150px
+}

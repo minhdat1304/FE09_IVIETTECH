@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM</title>
+</head>
+<body>
+	<div class="main" id="FORM">
+    		<div class="image">
+    			<div class="container1">
+    				<div class="element1">
+    					<h4 class="eltitle">Address</h4>
+    					<p class="elp" >Mada center 8th floor, 379 Hudson St, New York, NY 10018 US </p>
+    				</div>
+    			</div>
+    			<div class="container1">
+    				<div class="element1">
+    					<h4 class="eltitle">Lets Talk</h4>
+    					<p class="elp"> +1800 123456789 </p>
+    				</div>
+    			</div>
+    			<div class="container1">
+    				<div class="element1">
+    					<h4 class="eltitle">General</h4>
+    				<p class="elp"> Contact@example.com </p>
+    				</div>
+    			</div>
+    		</div>
+    		<form class="login" method="post" action="" >
+    			    <h3>Send Us A Message</h3>
+			    	<div class="ellogin">
+			    		<p class="text_mess"> Tell us your name </p>
+				    		<input class="name" type="text" name="first-name" placeholder="First Name" pattern="[A-Za-z]{1,50}" required>
+			    			<input class="name" type="text" name="last-name" placeholder="Last Name"  pattern="[A-Za-z]{1,50}" required>
+    			    </div>   			    
+    			    <div class="ellogin">
+    			    	<p class="text_mess">Enter your email </p>
+    			    	<input class="Enter" type="email" placeholder="Eg. example@email.com" required>
+    			    </div>
+    			    <div class="ellogin">
+    			    	 <p class="text_mess">Enter phone number</p>
+    			    	<input class="Enter" type="tel" placeholder="Eg. +1800 00000000" pattern="[0-9]" required>
+    			    </div>    			   
+    			    <div class="ellogin">
+    			    	 <p  class="text_mess">Message </p>
+    			    	<textarea name="message" placeholder="Write us a message" pattern="[A-Za-z]{1,4000}" required> </textarea>
+    			    </div>
+    			    <div class="but">
+    			    	<button type="submit" name="submit"> send message </button>
+    			    </div>
+    		</form>
+	</div>
+
+	
+</body>
+</html>

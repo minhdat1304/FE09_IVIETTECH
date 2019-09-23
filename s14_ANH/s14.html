@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>S14</title>
+    <link rel="stylesheet" href="css/s14.css">
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="container-left">
+            <div class="background">
+                <!-- <img id="background" src="images/image-br.jpg" alt="background"> -->
+            </div>
+            <div class="content-container">
+                <div>
+                    <img src="images/location3.png" alt="icon-location">
+                    <h3>Address</h3>
+                    <p id="address">Đà Nẵng,Việt Nam</p>
+                </div>
+                <div>
+                    <img src="images/phone.png" alt="icon-phone">
+                    <h3>Lets Talk</h3>
+                    <p>+84905258500</p>
+                </div>
+                <div>
+                    <img src="images/letter.png" alt="icon-letter">
+                    <h3>General Suppourt</h3>
+                    <p>abc@gmail.com</p>
+                </div>
+            </div>
+        </div>
+         <form>
+        <div class="container-right">
+            <div class="content-container-bot">
+                <div class="bot-tt">
+                    <h1>Send Us A Message</h1>
+                </div>
+                <div class="row-bot">
+                    <div class="row-t">
+                        <p>TELL US YOUR NAME *</p>
+                    </div>
+                    <div class="row-i">
+                        <input type="text"pattern="[a-z A-Z]{0,50}" placeholder="First name" required>
+                    </div>
+                    <div class="row-i">
+                        <input type="text" pattern="[a-z A-Z]{0,50}" placeholder="Last name"
+                        required>
+                    </div>
+                </div>
+                <div class="row-bot">
+                    <div class="row-t">
+                        <p>ENTER YOUR EMAIL *</p>
+                    </div>
+                    <div class="row-t">
+                        <input name="email" type="email" placeholder="example@gmail.com" required>
+                    </div>
+                </div>
+                <div class="row-bot">
+                    <div class="row-t">
+                        <p>ENTER PHONE NUMBER *</p>
+                    </div>
+                    <div class="row-t">
+                        <input type="text" pattern="[+ 0-9]{10,11}" placeholder="+8409099909" required="">
+                    </div>
+                </div>
+                <div class="row-bot">
+                    <div class="row-t">
+                        <p>MESSAGE *</p>
+                    </div>
+                    <div class="row-t">
+                        <textarea name="" id="" cols="20" rows="5" placeholder="write us a message"  maxlength="4000" required></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="bt">
+            	<button type="submit">SEND MESSAGE</button>
+            </div>
+        </div>
+         </form>
+    </div>
+</body>
+
+</html>
