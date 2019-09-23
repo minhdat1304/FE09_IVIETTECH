@@ -49,8 +49,8 @@
             <form action="#">
                 <div class=" row-right ">
                     <input type="text" value="TELL US YOUR NAME *" readonly class="title">
-                    <input type="text" placeholder="First name" class="first-name" required pattern="[a-z A-Z]{1,250}">
-                    <input type="text" placeholder="Last name" class="last-name" required pattern="[a-z A-Z]{1,250}">
+                    <input type="text" placeholder="First name" class="first-name" required pattern="[a-z A-Z]{1,250}" oninvalid="this.setCustomValidity('Tên không chứa số và kí tự đặc biệt')" oninput="setCustomValidity('')">
+                    <input type="text" placeholder="Last name" class="last-name" required pattern="[a-z A-Z]{1,250}" oninvalid="this.setCustomValidity('Tên không chứa số và kí tự đặc biệt')" oninput="setCustomValidity('')">
                 </div>
 
                 <div class="row-right">
@@ -60,7 +60,7 @@
 
                 <div class="row-right">
                     <input type="text" value="ENTER PHONE NUMBER" readonly class="title">
-                    <input type="tel" placeholder="Eg.+0123456789" class="phone" pattern="[+][0-9]{10}">
+                    <input type="tel" placeholder="Eg.+0123456789" class="phone" pattern="[+][0-9]{10}" oninvalid="this.setCustomValidity('Phone không chứa chữ và kí tự đặc biệt')" oninput="setCustomValidity('')">
                 </div>
 
                 <div class="row-right">
