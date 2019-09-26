@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Courier;
+    font-size: 15px
+}
+.header{
+    width: 100%;
+    min-height: 50px;
+    background-color: #74a044;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    width: 50%;
+    margin-left: 50px;
+    padding: 20px;
+}
+.search{
+    width: 50%;
+    text-align: end;
+    margin-right: 50px;
+    padding: 20px;
+}
+.menu{
+    width: 100%;
+    min-height: 300px;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+.logo img{
+    max-width: 100%;
+}
+.mainlogo{
+    width: 100%;
+}
+.mainlogo ul{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mainlogo ul li{
+    list-style: none;
+}
+.mainlogo ul li a{
+    padding: 0 25px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000;
+}
+.imgmenu{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.left, .mid, .right{
+    width: 33.33333%;
+    padding: 5px;
+    position: relative;
+}
+.imgleft, .imgmid, .imgright{
+    width: 100%;
+}
+.imgleft img , .imgmid img, .imgright img {
+    max-width: 100%;
+}
+.textleft, .textmid, .textright{
+    position: absolute;
+    top: 55%;
+    padding: 10px;
+    color: white;
+}
+.textimg{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+  background-color: #74a044;
+  border: none;
+  font-size: 10px;
+  color: #FFFFFF;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+  border-radius: 3px; 
+}
+.container{
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.content{
+    width: 70%;
+    min-height: 500px;
+}
+.sidebar{
+    width: 30%;
+    background-color: aqua;
+}
+.content1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.imgcontent1{
+    width: 30%;
+}
+.textcontent1{
+    width: 70%;
+    padding: 20px;
+    color: #000;
+}
+.imgcontent1 img{
+    max-width: 100%;
+}
+.textcontent1 h2 a{
+    text-decoration: none;
+    color: #000;
+}

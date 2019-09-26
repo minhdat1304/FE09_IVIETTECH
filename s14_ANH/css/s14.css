@@ -1,0 +1,162 @@
+/*chung*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mawaley';
+    border: none;
+    outline: none;
+    /*padding: 10px;*/
+    /*box-sizing: border-box;*/
+    /*text-decoration: none;*/
+    color: white;
+    font-size: 30px;
+}
+
+/*body*/
+html,
+body {
+    height: 95%;
+    padding: 20px 0;
+}
+
+.body-container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 0px 2px 5px 3px silver;
+}
+
+.container-left {
+    background-image: url('../images/img-br2.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    /*opacity: 0.4;*/
+    height: 100%;
+}
+
+.container-right {
+    height: 100%;
+    width: 50%;
+    float: left;
+    max-height: 100%;
+}
+
+.container-right h1,
+.container-right h3 {
+    display: 100%;
+    color: black;
+    text-align: center;
+}
+
+.container-left {
+    display: flex;
+    /*background-color: red;*/
+    width: 50%;
+    float: left;
+    max-height: 100%;
+    /*align-items: center;*/
+}
+
+.content-container {
+    margin: auto;
+    margin-left: 10%;
+}
+
+.content-container div {
+    padding: 20px;
+
+}
+
+.content-container div img,
+.content-container div h3 {
+    width: 25px;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.content-container p {
+    padding-left: 70px;
+    color: green;
+    font-size: 0.5em;
+}
+
+/*.body-container .container-left img {
+    width: 100%;
+}*/
+.content-container-bot {
+    width: 80%;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.content-container-bot div h3 {
+    text-align: left;
+}
+
+.row-bot {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.row-t p {
+    padding: 10px;
+}
+
+.row-t p,
+.row-t textarea {
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.row-t input,
+.row-i input {
+    width: 80%;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+
+.row-t,
+.row-i {
+    border: 1px solid black;
+}
+
+.row-t {
+    width: 99%;
+}
+
+.row-i {
+    width: 49.2%;
+    /*float: left;*/
+}
+
+.row-i input,
+.row-t textarea {
+    width: 95%;
+    margin-left: 5px;
+}
+
+.bt {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    width: 30%;
+    background-color: green;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.bot-tt {
+    padding-top: 20%;
+}

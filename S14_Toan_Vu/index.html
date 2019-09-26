@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <title>Bài tập Buổi 9</title>
+</head>
+<body>
+    <div class="contact">
+        <div class="contact-left">
+            <!-- <div class="gradient">
+
+            </div> -->
+            <div class="information">
+                <div class="row">
+                    
+                    <i class="fas fa-map-marker-alt" style="width: 32px;"></i>
+                    <div class="row1">
+                        <h4>Address</h4>
+                        <h6>65 Đồng Kè, Hòa Khánh Bắc, Liên Chiểu, Đà Nẵng</h6>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <i class="fas fa-phone"></i>
+                    <div class="row1">
+                        <h4>Lets Talk</h4> 
+                        <h6 style="color:green">+12346789</h6>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <i class="far fa-envelope"></i>
+                    <div class="row1">
+                        <h4>General Support</h4>
+                        <h6 style="color: green">hihihaha@gmail.com</h6>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="contact-right">
+            <h2>Send Us A Message</h2>
+            <form action="#">
+                <div class=" row-right ">
+                    <input type="text" value="TELL US YOUR NAME *" readonly class="title">
+                    <input type="text" placeholder="First name" class="first-name" required pattern="[a-z A-Z]{1,250}" oninvalid="this.setCustomValidity('Tên không chứa số và kí tự đặc biệt')" oninput="setCustomValidity('')">
+                    <input type="text" placeholder="Last name" class="last-name" required pattern="[a-z A-Z]{1,250}" oninvalid="this.setCustomValidity('Tên không chứa số và kí tự đặc biệt')" oninput="setCustomValidity('')">
+                </div>
+
+                <div class="row-right">
+                    <input type="text" value="ENTER YOUR EMAIL *" readonly required class="title">
+                    <input type="email" placeholder="Eg.example@gmail.com" class="email" required>
+                </div>
+
+                <div class="row-right">
+                    <input type="text" value="ENTER PHONE NUMBER" readonly class="title">
+                    <input type="tel" placeholder="Eg.+0123456789" class="phone" pattern="[+][0-9]{10}" oninvalid="this.setCustomValidity('Phone không chứa chữ và kí tự đặc biệt')" oninput="setCustomValidity('')">
+                </div>
+
+                <div class="row-right">
+                    <input type="text" value="MESSAGE *" readonly required class="title">
+                    <textarea name="mess" id="" cols="30" rows="10" placeholder="Write us a message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">SEND MESSAGE</button>
+                
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

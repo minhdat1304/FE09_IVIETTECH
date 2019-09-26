@@ -39,10 +39,10 @@
 			    	<label class="input-form" for="first-name">tell us your name *</label>
 			    	<div class="tow-input">
 			    	<div class="wrap-input input1">
-				    	<input type="text" name="first-name" placeholder="First Name" pattern="[A-Za-z]{1,}" required>
+				    	<input type="text" name="first-name" placeholder="First Name" pattern="[A-Za-z]{1-10}" required>
 			    	</div>
 			    	<div class="wrap-input input2">
-			    	<input type="text" name="last-name" placeholder="Last Name"  pattern="[A-Za-z]{1,}" required>
+			    	<input type="text" name="last-name" placeholder="Last Name"  pattern="[A-Za-z]{1-10}" required>
     			    </div>
     			    </div>
     			    <label class="input-form" for="email">enter your email *</label>
@@ -52,11 +52,11 @@
     			    
     			    <label class="input-form" for="phone">enter phone number</label>
     			    <div class="wrap-input">
-    			    	<input type="tel" placeholder="Eg. +1800 00000000" pattern="[0-9]{3,}" required>
+    			    	<input type="tel" placeholder="Eg. +1800 00000000" pattern="[+0-9]{3-15}" required>
     			    </div>
     			    <label class="input-form" for="message">Message *</label>
     			    <div class="wrap-input">
-    			    	<textarea name="message" placeholder="Write us a message" required> </textarea>
+    			    	<textarea type="text" placeholder="Write us a message" maxlength="1000" required=""></textarea>
     			    </div>
     			     <div class="button">
     			    	<button type="submit" name="submit"> send message </button>

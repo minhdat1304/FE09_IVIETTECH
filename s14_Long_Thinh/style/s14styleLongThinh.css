@@ -10,6 +10,9 @@ body{
     
 
 }
+textarea {
+   resize: none;
+}
 .main{
     width: 100%;
     transition: .4s;
