@@ -1,0 +1,156 @@
+:root{
+	--small : 13px;
+	--medium: 16px;
+	--large: 22px;
+}
+p, a{
+	font-size: var(--small);
+	display: block;
+}
+h4{
+	font-size: var(--medium);
+}
+.header{
+	background-color: #666666;
+	padding: 5px 0;
+	color: white;
+}
+.header ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding-left: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.header .left ul{
+	justify-content: flex-start;
+}
+.header .left ul li{
+	margin-right: 10px;
+}
+.header .right ul{
+	justify-content: flex-end;
+}
+.header .right ul li{
+	margin-left: 10px;
+}
+
+.news{
+	padding: 10px 0;
+}
+.news .right{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.news img{
+	width: 100%;
+}
+
+.menu{
+	background-color: #E3E3E3;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.menu ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding-left: 0;
+	vertical-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.menu ul li{
+	margin-right: 10px;
+}
+.menu .search{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.menu .search input{
+	margin-left: 10px;
+}
+
+.topContent{
+	margin-top: 20px;
+	font-size: var(--small);
+}
+.topContent img{
+	width: 100%;
+}
+.topContent .left img{
+	width: 85%;
+}
+.topContent .left{
+	padding: 0 5px 0 10px;
+	text-align: right;
+}
+.mainContent .title{
+	width: 100%;
+	text-align: right;
+	background-color: #eee;
+	font-size: var(--medium);
+	margin: 10px 0;
+}
+.mainContent .inner{
+	padding-right: 15px;
+    padding-left: 15px;
+}
+.mainContent img{
+	width: 100%;
+}
+.bottomContent img{
+	width: 100%;
+}
+.bottomCenter .left{
+	padding: 0 5px 0 10px;
+}
+.bottomContent .right{
+	text-align: right;
+	padding: 0 5px 0 10px;
+}
+.bottomContent .right img{
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+.topInfor .content{
+	display: flex;
+	flex-wrap: wrap;
+}
+.topInfor .width25{
+	width: 20%;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+.mainInfor{
+}
+.mainInfor .left{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+.mainInfor img{
+	width: 100px;
+}
+
+.mainInfor .right input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.mainInfor .right button{
+	height: 60%;
+	width: 100%;
+}
+
+.bottomInfor a{
+	display: inline;
+}
+
+.bottomInfor .right{
+	text-align: right;
+}
