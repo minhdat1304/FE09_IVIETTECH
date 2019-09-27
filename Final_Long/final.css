@@ -139,44 +139,45 @@ h4{
 	margin-bottom: 20px;
 }
 
-.topInfor a{
+.topFooter a{
 	display: block;
 }
-.topInfor .content{
+.topFooter .content{
 	display: flex;
 	flex-wrap: wrap;
 }
-.topInfor .width25{
+.topFooter .width25{
 	width: 20%;
 	padding-right: 10px;
 	box-sizing: border-box;
 }
 
-.mainInfor{
+.mainFooter{
 }
-.mainInfor .left{
+.mainFooter .left{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	text-align: center;
+	align-items: center;
 }
-.mainInfor img{
+.mainFooter img{
 	width: 100px;
 }
 
-.mainInfor .right input{
+.mainFooter .right input{
 	width: 100%;
 	margin-bottom: 10px;
 }
-.mainInfor .right button{
+.mainFooter .right button{
 	height: 60%;
 	width: 100%;
 }
 
-.bottomInfor a{
+.bottomFooter a{
 	display: inline;
 }
 
-.bottomInfor .right{
+.bottomFooter .right{
 	text-align: right;
 }
