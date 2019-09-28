@@ -102,7 +102,6 @@ body {
 
 .fit-content {
     width: fit-content;
-    min-width: 318px;
 }
 
 .midle-font-size {
@@ -198,7 +197,7 @@ body {
 }
 .footer-link{
     display: block;
-    width: fit-content;
+    width: 100%;
     padding: 5px;
 }
 .footer-link-img{
@@ -244,6 +243,10 @@ body {
     }
     .footer-link-text{
         font-size: 20px;
+    }
+    .Logo-xlager-text{
+        font-size: 40px;
+        margin: 5px;
     }
 
 }
