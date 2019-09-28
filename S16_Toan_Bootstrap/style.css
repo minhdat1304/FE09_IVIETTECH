@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0;}
+
+ .dropdown-toggle:after { content: none; } /*ẩn icon dropdown ở navbar */
+.name-web:hover{
+    text-decoration: none;
+}
+.form-control::-webkit-input-placeholder { color: white; }
+.border-2 {
+    border-width:2px !important;
+}
+.card{
+    border:0;
+}
+.bg-slide{
+    background-color: #EFEFEF;
+}
+.name-web-content{
+    float: right;
+}
+.name-web-img{
+    width: 50%;
+}
