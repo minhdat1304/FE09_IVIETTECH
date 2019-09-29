@@ -1,0 +1,7 @@
+.col-td-2{
+    width: 20%;
+    flex: 20%;
+    /* position: relative; */
+    padding-right: 15px;
+    padding-left: 15px
+}
