@@ -460,6 +460,10 @@
 
 }
 
+.carousel-item {
+    height: 380px;
+}
+
 @media screen and (max-width: 992px) {
     .socialise-box .col-xl-4 input {
         width: 25%;

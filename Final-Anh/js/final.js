@@ -14,3 +14,6 @@ function menuOpen2() {
 		y.className = "search-form";
 	}
 }
+$('.carousel').carousel({
+  interval: 1000
+})
