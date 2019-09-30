@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/final.css">
+    <script src="js/final.js"></script>
 </head>
 
 <body>
@@ -61,7 +62,7 @@
                             </div>
                             <div class="col-lg-6 header-center ">
                                 <div class="img-name">
-                                    <img src="images/demo/aaa.gif" alt="">
+                                    <img src="my-image/16.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -72,8 +73,9 @@
         <div class="container-fluid menu-color wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="menu-top">
+                    <div id="menu-top-element" class="menu-top">
                         <ul>
+                            <li class="menu-icon"><a onclick="menuOpen(); menuOpen2()">☰</a></li>
                             <li class="active"><a href=""></a>HOME</li>
                             <li><a href=""></a>Style Demo</li>
                             <li><a href=""></a>Full Width</li>
@@ -81,7 +83,7 @@
                             <li><a href=""></a>A Long Link Text</li>
                         </ul>
                     </div>
-                    <div class="search-form">
+                    <div id="search-form" class="search-form">
                         <input type="text" class="text-search" placeholder="Search Our Website…">
                         <input type="submit" class="submit-search" name="search" value="search">
                     </div>
@@ -95,19 +97,19 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-8 content-main-top ">
-                            <img src="images/demo/1.gif" alt="">
+                            <img src="my-image/3.jpg" alt="">
                         </div>
                         <!-- <div class="col-md-1">
                         </div> -->
                         <div class="col-xl-4">
                             <div class="row">
-                                <div class="col-xl-4 col-md-2">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="img-maintop">
-                                        <img src="images/demo/100-100.gif" alt="">
+                                        <img src="my-image/2.jpg" alt="">
                                     </div>
                                 </div>
                                 <!-- <div class="col-2"></div> -->
-                                <div class="col-xl-8 col-md-10">
+                                <div class="col-xl-8 col-md-6">
                                     <div>
                                         <p>
                                             <strong>
@@ -119,13 +121,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-xl-4 col-md-2">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="img-maintop">
-                                        <img src="images/demo/100-100.gif" alt="">
+                                        <img src="my-image/5.jpg" alt="">
                                     </div>
                                 </div>
                                 <!-- <div class="col-2"></div> -->
-                                <div class="col-xl-8 col-md-10">
+                                <div class="col-xl-8 col-md-6">
                                     <div>
                                         <p>
                                             <strong>
@@ -137,13 +139,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-xl-4 col-md-2">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="img-maintop">
-                                        <img src="images/demo/100-100.gif" alt="">
+                                        <img src="my-image/15.jpg" alt="">
                                     </div>
                                 </div>
                                 <!-- <div class="col-2"></div> -->
-                                <div class="col-xl-8 col-md-10">
+                                <div class="col-xl-8 col-md-6">
                                     <div>
                                         <p>
                                             <strong>
@@ -166,7 +168,7 @@
                         <!-- ben phải -->
                         <div class="col-xl-6 title-content">
                             <div class="banner">
-                                <img src="images/demo/aaa.gif" alt="">
+                                <img src="my-image/10.png" alt="">
                             </div>
                             <div class="div-content-row">
                                 <div class="title-content-bar">
@@ -174,10 +176,10 @@
                                 </div>
                                 <div class="content-img">
                                     <div class="row">
-                                        <div class="col-xl-3 border-dark">
-                                            <img src="images/demo/100-100.gif" alt="">
+                                        <div class="col-xl-3 border-dark col-md-6">
+                                            <img src="my-image/14.jpg" alt="">
                                         </div>
-                                        <div class="col-xl-8">
+                                        <div class="col-xl-8 col-md-6">
                                             <a href="">Indonectetus facilis leo.</a>
                                             <p>This is a W3C standards compliant free website template from
                                                 <a href="http://www.os-templates.com/">OS Templates</a>
@@ -193,10 +195,10 @@
                                 </div>
                                 <div class="content-img">
                                     <div class="row">
-                                        <div class="col-xl-3 border-dark">
-                                            <img src="images/demo/100-100.gif" alt="">
+                                        <div class="col-xl-3 border-dark col-md-6">
+                                            <img src="my-image/15.jpg" alt="">
                                         </div>
-                                        <div class="col-xl-8">
+                                        <div class="col-xl-8 col-md-6">
                                             <a href="">Indonectetus facilis leo.</a>
                                             <p>This is a W3C standards compliant free website template from
                                                 <a href="http://www.os-templates.com/">OS Templates</a>
@@ -209,7 +211,7 @@
                         <!-- ben trái -->
                         <div class="col-xl-6 title-content">
                             <div class="banner">
-                                <img src="images/demo/aaa.gif" alt="">
+                                <img src="my-image/17.jpg" alt="">
                             </div>
                             <div class="div-content-row">
                                 <div class="title-content-bar">
@@ -217,10 +219,10 @@
                                 </div>
                                 <div class="content-img">
                                     <div class="row">
-                                        <div class="col-xl-3 border-dark">
-                                            <img src="images/demo/100-100.gif" alt="">
+                                        <div class="col-xl-3 border-dark col-md-6">
+                                             <img src="my-image/21.jpg" alt="">
                                         </div>
-                                        <div class="col-xl-8">
+                                        <div class="col-xl-8 col-md-6">
                                             <a href="">Indonectetus facilis leo.</a>
                                             <p>This is a W3C standards compliant free website template from
                                                 <a href="http://www.os-templates.com/">OS Templates</a>
@@ -236,10 +238,10 @@
                                 </div>
                                 <div class="content-img">
                                     <div class="row">
-                                        <div class="col-xl-3 border-dark">
-                                            <img src="images/demo/100-100.gif" alt="">
+                                        <div class="col-xl-3 border-dark col-md-6">
+                                             <img src="my-image/25.jpg" alt="">
                                         </div>
-                                        <div class="col-xl-8">
+                                        <div class="col-xl-8 col-md-6">
                                             <a href="">Indonectetus facilis leo.</a>
                                             <p>This is a W3C standards compliant free website template from
                                                 <a href="http://www.os-templates.com/">OS Templates</a>
@@ -262,20 +264,20 @@
                                 <div class="title-center2">
                                     <h2>Feugiatrutrum rhoncus semper</h2>
                                     <div class="row">
-                                        <div class="col-xl-4">
-                                            <img src="images/demo/190-130.gif" alt="">
+                                        <div class="col-xl-4 col-md-6">
+                                             <img src="my-image/24.jpg" alt="">
                                             <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
                                             <p>Urnau ltrices quis curabitur pha sellent esque congue magnisve stib ulum quismodo nulla et.</p>
                                             <p class="rea-more"><a href="">Continue Reading »</a></p>
                                         </div>
-                                        <div class="col-xl-4">
-                                            <img src="images/demo/190-130.gif" alt="">
+                                        <div class="col-xl-4 col-md-6" >
+                                             <img src="my-image/23.jpg" alt="">
                                             <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
                                             <p>Urnau ltrices quis curabitur pha sellent esque congue magnisve stib ulum quismodo nulla et.</p>
                                             <p class="rea-more"><a href="">Continue Reading »</a></p>
                                         </div>
-                                        <div class="col-xl-4">
-                                            <img src="images/demo/190-130.gif" alt="">
+                                        <div class="col-xl-4 ">
+                                             <img src="my-image/26.jpg" alt="">
                                             <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
                                             <p>Urnau ltrices quis curabitur pha sellent esque congue magnisve stib ulum quismodo nulla et.</p>
                                             <p class="rea-more"><a href="">Continue Reading »</a></p>
@@ -285,10 +287,10 @@
                             </div>
                             <div class="col-xl-4">
                                 <div class="img-up">
-                                    <img src="images/demo/300-250.gif" alt="">
+                                     <img src="my-image/4.jpg" alt="">
                                 </div>
                                 <div class="img-dow">
-                                    <img src="images/demo/300-80.gif" alt="">
+                                    <img src="my-image/9.png" alt="">
                                 </div>
                             </div>
                         </div>
