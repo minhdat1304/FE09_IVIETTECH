@@ -1,0 +1,26 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #666666;
+}
+
+.main3{
+	width: 100%;
+}
+.main31, .main32, .main33, .main34, .main35{
+	width: 20%;
+	float: left;
+}
+#hue5 {
+	width: 300px;
+	height: 250px;
+}
+#hue6{
+	width: 300px;
+	height: 80px;
+}
+#tan{
+	margin-left: 0px;
+}
