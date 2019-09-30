@@ -190,6 +190,9 @@ form fieldset .search-our{
 	width: 115px;
 	height: 115px;
 }
+.last p a:hover{
+	text-decoration: none;
+}
 .last p, strong {
 	padding-left: 10px;
 }
@@ -216,8 +219,10 @@ form fieldset .search-our{
 	flex-direction: row;
 	padding-top: 5px;
 }
-.main2-left10 .link1{
-	
+.main2-left2 img{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 20px;
 }
 #hpage_latest h2{
 	font-size: 20px;
@@ -286,11 +291,12 @@ form fieldset .search-our{
 	flex-direction: column;	
 }
 
-}
-.left1 a span:hover{
+
+.left1 a:hover{
 	text-decoration: none;
 
 }
+
 .left1 span{
 	font-size: 20px;
 	padding-left: 20px;
@@ -310,16 +316,20 @@ form fieldset .search-our{
 .right1{
 	display: flex;
 	flex-direction: row;
-
+	margin-top: -20px;
 }
 .right10 input{
 	margin-top: 10px;
 	width: 70%;
-	height: 20px;
+	height: 30px;
 }
 .right11{
-	width: 30%;
-	height: 20px;
+	width: 50px;
+	height: 50px;
+}
+.right11 input{
+	width: 50px;
+	height: 50px;
 }
 #copyright{
 	margin-top: 20px;
@@ -327,4 +337,23 @@ form fieldset .search-our{
 }
 #copyright .cp-right{
 	text-align: right;
+}
+.right10 input{
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	background-color: #819FF7;
+}
+.right11 input{
+	width: 100%;
+	height: 70px;
+	margin-top: 10px;
+	margin-left: -20px;
+	background-color: #819FF7;
+}
+.right a:hover{
+	text-decoration: none;
+}
+.cp-left p a, .cp-right p a{
+	text-decoration: none;
 }

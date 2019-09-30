@@ -196,8 +196,9 @@ body {
     text-decoration: none;
 }
 .footer-link{
-    display: block;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
     padding: 5px;
 }
 .footer-link-img{
@@ -246,7 +247,6 @@ body {
     }
     .Logo-xlager-text{
         font-size: 40px;
-        margin: 5px;
     }
 
 }
